@@ -11,6 +11,9 @@
 	--accent: #b89a62;
 	--accent-deep: #6d1f2a;
 	--anime-accent: #8e8cd7;
+	--radius-small: 12px;
+	--radius: 16px;
+	--radius-large: 20px;
 	--header-height: 82px;
 	--content-width: min(1280px, calc(100vw - 48px));
 	--transition: 220ms cubic-bezier(0.22, 1, 0.36, 1);
@@ -99,7 +102,6 @@ main {
 	padding: 0;
 	cursor: pointer;
 }
-
 
 .menu-toggle {
 	display: inline-flex;
@@ -753,6 +755,32 @@ main {
 		bottom: 16px;
 	}
 
+.language-trigger,
+.language-menu button,
+.mobile-language-actions button,
+.hero-cta,
+.photo-frame-img,
+.image-modal-close,
+.game-info-icon {
+	border-radius: var(--radius-small);
+}
+
+.language-menu,
+.photo-frame,
+.image-modal-preview,
+.event-card-banner,
+.event-card-logo,
+.game-card {
+	border-radius: var(--radius);
+}
+
+.cookie-modal-content,
+.cookie-modal-notice,
+.event-card,
+.game-info-box {
+	border-radius: var(--radius-large);
+}
+
 	.cookie-modal {
 		padding: 16px;
 	}
@@ -1156,6 +1184,10 @@ body.page-games {
 	margin-bottom: 72px;
 }
 
+.event-month:last-child {
+	margin-bottom: 0;
+}
+
 .event-month-rule {
 	height: 1px;
 	background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.9) 18%, #ffffff 50%, rgba(255, 255, 255, 0.9) 82%, transparent);
@@ -1180,66 +1212,53 @@ body.page-games {
 
 .event-card {
 	position: relative;
-	min-height: 330px;
+	min-height: 0;
 	overflow: hidden;
-	display: flex;
-	align-items: flex-end;
-	background-color: #171717;
-	background-image: var(--event-image);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: var(--community-bg, #171717);
 	border: 1px solid rgba(255, 255, 255, 0.12);
 	border-radius: 8px;
 }
 
-.event-card::before {
-	content: "";
-	position: absolute;
-	inset: 0;
-	z-index: 0;
-	background-image: var(--event-image);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.event-card-banner {
+	aspect-ratio: 2560 / 1080;
+	height: auto;
+	width: calc(100% - 24px);
+	margin: 12px 12px 0;
+	overflow: hidden;
+	border-radius: 6px;
+	background: #242424;
 }
 
-.event-card-background {
-	position: absolute;
-	inset: 0;
-	z-index: 0;
+.event-card-banner img {
+	display: block;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
 
-.event-card-overlay {
-	position: absolute;
-	inset: 0;
-	z-index: 1;
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.64));
-}
-
 .event-card-content {
 	position: relative;
-	z-index: 1;
 	width: 100%;
-	padding: clamp(22px, 4vw, 42px);
+	padding: 24px clamp(22px, 4vw, 32px) 28px;
 }
 
-.event-card-topline {
+.event-card-intro {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	align-items: flex-start;
 	gap: 18px;
+	margin-top: 0;
 }
 
 .event-card-logo {
-	flex: 0 0 82px;
-	width: 82px;
-	height: 82px;
+	flex: 0 0 108px;
+	width: 108px;
+	height: 108px;
+	margin: -78px 0 0 12px;
 	overflow: hidden;
-	border-radius: 25px;
-	background: rgba(0, 0, 0, 0.42);
+	border: 12px solid var(--community-bg, #171717);
+	border-radius: 12px;
+	background: var(--community-bg, #171717);
 }
 
 .event-card-logo img {
@@ -1250,11 +1269,12 @@ body.page-games {
 }
 
 .event-card-heading {
+	width: 100%;
 	min-width: 0;
 }
 
 .event-card-heading h3 {
-	margin: 0 0 12px;
+	margin: 0 0 7px;
 	font-family: "Rubik", sans-serif;
 	font-size: clamp(1.2rem, 3vw, 2rem);
 	font-weight: 500;
@@ -1267,27 +1287,52 @@ body.page-games {
 	color: inherit;
 }
 
+.event-card-heading p {
+	margin: 0;
+	font-size: 0.92rem;
+	line-height: 1.45;
+	color: rgba(255, 255, 255, 0.68);
+}
+
+.event-card-heading p span[dir="rtl"] {
+	unicode-bidi: isolate;
+}
+
 .event-card-tags {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 6px;
+	margin-top: 24px;
 }
 
-.event-card-tags span {
+.event-card-tags span,
+.event-card-tags button {
 	padding: 6px 10px;
 	border: 1px solid rgba(255, 255, 255, 0.34);
 	border-radius: 999px;
 	background: rgba(8, 8, 8, 0.42);
+	font-family: inherit;
 	font-size: 0.66rem;
 	font-weight: 600;
 	letter-spacing: 0.12em;
 	color: rgba(255, 255, 255, 0.88);
 }
 
+.event-card-tags button {
+	cursor: pointer;
+}
+
+.event-card-tags button:hover,
+.event-card-tags button:focus-visible {
+	border-color: #ffffff;
+	color: #ffffff;
+}
+
 .event-card-details {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 28px;
+	display: grid;
+	gap: 16px;
 	margin-top: 28px;
 	padding-top: 18px;
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -1315,7 +1360,8 @@ body.page-games {
 	display: inline-flex;
 	align-items: center;
 	gap: 8px;
-	margin-top: 24px;
+	width: fit-content;
+	margin: 0;
 	font-size: 0.8rem;
 	letter-spacing: 0.08em;
 	color: rgba(255, 255, 255, 0.78);
@@ -1324,6 +1370,12 @@ body.page-games {
 .event-profile-link:hover,
 .event-profile-link:focus-visible {
 	color: #ffffff;
+}
+
+.event-profile-chevron {
+	width: 16px;
+	height: 16px;
+	transform: rotate(-135deg);
 }
 
 .games-grid {
@@ -1456,18 +1508,18 @@ body.page-games {
 	}
 
 	.event-card {
-		min-height: 410px;
+		min-height: 0;
 	}
 
-	.event-card-topline {
-		align-items: flex-start;
-		flex-direction: column;
+	.event-card-intro {
+		gap: 14px;
 	}
 
 	.event-card-logo {
-		flex-basis: 70px;
-		width: 70px;
-		height: 70px;
+		width: 90px;
+		height: 90px;
+		margin-top: -69px;
+		flex-basis: 90px;
 	}
 
 	.event-card-details {
@@ -1723,5 +1775,31 @@ body.page-game-detail {
 	.game-info-box {
 		padding: 26px;
 	}
+}
+
+.language-trigger,
+.language-menu button,
+.mobile-language-actions button,
+.hero-cta,
+.photo-frame-img,
+.image-modal-close,
+.game-info-icon {
+	border-radius: var(--radius-small);
+}
+
+.language-menu,
+.photo-frame,
+.image-modal-preview,
+.event-card-banner,
+.event-card-logo,
+.game-card {
+	border-radius: var(--radius);
+}
+
+.cookie-modal-content,
+.cookie-modal-notice,
+.event-card,
+.game-info-box {
+	border-radius: var(--radius-large);
 }
 

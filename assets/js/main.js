@@ -55,7 +55,10 @@ const translations = {
 		games: {
 			breadcrumbCurrent: "EVENTS",
 			november: "November 2026",
-			october: "October 2026",
+			october: "Oktober 2026",
+			profileLink: "Mein Community-Profil",
+			role: "ROLLE",
+			date: "DATUM",
 			eyebrow: "WO ICH GEHOLFEN HABE",
 			title: "GEHOLFENE EVENTS",
 			lead: "Hier findest du Events, bei denen ich hinter den Kulissen geholfen, übersetzt, Menschen verbunden und dafür gesorgt habe, dass die richtigen Worte ihren Platz finden.",
@@ -187,6 +190,9 @@ const translations = {
 			breadcrumbCurrent: "EVENTS",
 			november: "November 2026",
 			october: "October 2026",
+			profileLink: "My Community Profile",
+			role: "ROLE",
+			date: "DATE",
 			eyebrow: "WHERE I HELPED",
 			title: "HELPED EVENTS",
 			lead: "A look back at the events where I helped behind the scenes, translated, connected people, and made sure the right words found their place.",
@@ -318,6 +324,9 @@ const translations = {
 			breadcrumbCurrent: "EVENTOS",
 			november: "Noviembre de 2026",
 			october: "Octubre de 2026",
+			profileLink: "Mi perfil de la comunidad",
+			role: "ROL",
+			date: "FECHA",
 			eyebrow: "DÓNDE AYUDÉ",
 			title: "EVENTOS EN LOS QUE AYUDÉ",
 			lead: "Un vistazo a los eventos en los que ayudé entre bastidores, traduje, conecté a personas y me aseguré de que cada palabra encontrara su lugar.",
@@ -449,6 +458,9 @@ const translations = {
 			breadcrumbCurrent: "EVENTOS",
 			november: "Novembro de 2026",
 			october: "Outubro de 2026",
+			profileLink: "Meu perfil da comunidade",
+			role: "FUNÇÃO",
+			date: "DATA",
 			eyebrow: "ONDE AJUDEI",
 			title: "EVENTOS EM QUE AJUDEI",
 			lead: "Uma visão dos eventos em que ajudei nos bastidores, traduzi, conectei pessoas e cuidei para que cada palavra encontrasse seu lugar.",
@@ -580,6 +592,9 @@ const translations = {
 			breadcrumbCurrent: "ÉVÉNEMENTS",
 			november: "Novembre 2026",
 			october: "Octobre 2026",
+			profileLink: "Mon profil communautaire",
+			role: "RÔLE",
+			date: "DATE",
 			eyebrow: "LÀ OÙ J'AI AIDÉ",
 			title: "ÉVÉNEMENTS AUXQUELS J'AI CONTRIBUÉ",
 			lead: "Un aperçu des événements auxquels j'ai contribué en coulisses, en traduisant, en rapprochant les personnes et en veillant à ce que chaque mot trouve sa place.",
@@ -711,6 +726,9 @@ const translations = {
 			breadcrumbCurrent: "СОБЫТИЯ",
 			november: "Ноябрь 2026",
 			october: "Октябрь 2026",
+			profileLink: "Мой профиль сообщества",
+			role: "РОЛЬ",
+			date: "ДАТА",
 			eyebrow: "ГДЕ Я ПОМОГАЛ",
 			title: "СОБЫТИЯ, КОТОРЫМ Я ПОМОГАЛ",
 			lead: "Здесь собраны события, в которых я помогал за кулисами, переводил, знакомил людей и следил за тем, чтобы каждое слово нашло своё место.",
@@ -842,6 +860,9 @@ const translations = {
 			breadcrumbCurrent: "الفعاليات",
 			november: "نوفمبر 2026",
 			october: "أكتوبر 2026",
+			profileLink: "ملفي في المجتمع",
+			role: "الدور",
+			date: "التاريخ",
 			eyebrow: "حيث ساعدت",
 			title: "فعاليات ساعدت فيها",
 			lead: "نظرة على الفعاليات التي ساعدت فيها خلف الكواليس، وترجمت خلالها، وربطت بين الأشخاص، وحرصت على أن تجد الكلمات المناسبة مكانها.",
@@ -935,6 +956,7 @@ const imageModal = document.querySelector("[data-image-modal]");
 const imagePreview = document.querySelector("[data-image-preview]");
 const imageCaption = document.querySelector("[data-image-caption]");
 const imageClose = document.querySelector("[data-image-close]");
+const tagToggleButtons = document.querySelectorAll("[data-tag-toggle]");
 
 const languageStorageKey = "tishu-language";
 const storedLanguage = window.localStorage.getItem(languageStorageKey);
@@ -1072,6 +1094,18 @@ imageTriggers.forEach((trigger) => {
 			event.preventDefault();
 			setImageModalState(true, trigger);
 		}
+	});
+});
+
+tagToggleButtons.forEach((button) => {
+	button.addEventListener("click", () => {
+		const tags = button.closest(".event-card-tags");
+		const isExpanded = tags.classList.toggle("is-expanded");
+		button.setAttribute("aria-expanded", String(isExpanded));
+		button.textContent = isExpanded ? "Less" : "...";
+		tags.querySelectorAll("[data-extra-tag]").forEach((tag) => {
+			tag.hidden = !isExpanded;
+		});
 	});
 });
 
