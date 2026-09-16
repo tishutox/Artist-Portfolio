@@ -1256,8 +1256,8 @@ body.page-games {
 	height: 108px;
 	margin: -78px 0 0 12px;
 	overflow: hidden;
-	border: 12px solid var(--community-bg, #171717);
-	border-radius: 12px;
+	border: 8px solid var(--community-bg, #171717);
+	border-radius: 18px;
 	background: var(--community-bg, #171717);
 }
 
@@ -1791,7 +1791,6 @@ body.page-game-detail {
 .photo-frame,
 .image-modal-preview,
 .event-card-banner,
-.event-card-logo,
 .game-card {
 	border-radius: var(--radius);
 }
