@@ -124,6 +124,13 @@ main {
 	letter-spacing: 0.08em;
 }
 
+html[lang] [data-i18n],
+html[lang] .language-trigger,
+html[lang] .language-menu button,
+html[lang] .mobile-language-actions button {
+	font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
 .footer-nav a,
 .mobile-nav a {
 	font-size: 1rem;
@@ -833,7 +840,7 @@ body.page-about {
 }
 
 .about-hero {
-	padding: calc(var(--header-height) + 24px) 24px 56px;
+	padding: calc(var(--header-height) + 24px) 24px 28px;
 	background: #000000;
 }
 
@@ -907,7 +914,7 @@ body.page-about {
 }
 
 .about-story {
-	padding: 4px 24px 72px;
+	padding: 4px 24px 36px;
 	background: #000000;
 }
 
@@ -1127,7 +1134,7 @@ body.page-games {
 }
 
 .games-hero {
-	padding: calc(var(--header-height) + 24px) 24px 58px;
+	padding: calc(var(--header-height) + 24px) 24px 29px;
 	background: #000000;
 }
 
@@ -1174,14 +1181,14 @@ body.page-games {
 .events-showcase {
 	width: min(var(--content-width), 100%);
 	margin: 0 auto;
-	padding: 0 0 72px;
+	padding: 0 0 36px;
 	background: #000000;
 }
 
 .event-month {
 	display: grid;
 	gap: 22px;
-	margin-bottom: 72px;
+	margin-bottom: 36px;
 }
 
 .event-month:last-child {
@@ -1375,7 +1382,7 @@ body.page-games {
 .event-profile-chevron {
 	width: 16px;
 	height: 16px;
-	transform: rotate(-135deg);
+	transform: rotate(-90deg);
 }
 
 .games-grid {
@@ -1542,7 +1549,7 @@ body.page-games {
 
 @media (max-width: 860px) {
 	.about-story {
-		padding: 4px 20px 32px;
+		padding: 4px 20px 16px;
 	}
 
 	.about-cta {
