@@ -3,15 +3,14 @@ const translations = {
 		nav: {
 			home: "START",
 			about: "ÜBER",
-			team: "GAMES",
-			events: "STREAMS",
-			form: "KONTAKT"
+			events: "EVENTS",
+			friends: "FREUNDE"
 		},
 		labels: {
 			language: "SPRACHE"
 		},
 		hero: {
-			motto: "ERHEBE DICH",
+			motto: "WILLKOMMEN",
 			title: "ENTER THE FIGHT WITH PRECISION AND PRESENCE",
 			copy: "Gaming, Anime, Horror und Fantasy mit einer Prise Competitive Chaos und einer Person, die nicht immer so tut, als hätte sie einen Plan.",
 			cta: "MEHR ENTDECKEN"
@@ -19,7 +18,6 @@ const translations = {
 		footer: {
 			socials: "SOZIALES",
 			contact: "KONTAKT",
-			imprint: "IMPRESSUM",
 			legal: "RECHTLICHES"
 		},
 		cookie: {
@@ -33,28 +31,15 @@ const translations = {
 			control: "Du kannst gespeicherte Website-Daten jederzeit über die Einstellungen deines Browsers löschen. Wenn du eine andere Sprache auswählst, wird die neue Auswahl automatisch übernommen.",
 			close: "SCHLIESSEN"
 		},
-		imprint: {
-			title: "IMPRESSUM",
-			provider: "ANGABEN GEMÄSS § 5 TMG",
-			city: "86316 FRIEDBERG",
-			contact: "KONTAKT",
-			emailLabel: "E-MAIL:",
-			disclaimer: "HAFTUNGSAUSSCHLUSS",
-			disclaimerText: "Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.",
-			externalLinks: "EXTERNE LINKS",
-			externalLinksText: "Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.",
-			copyright: "URHEBERRECHT",
-			copyrightText: "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
-		},
 		about: {
 			breadcrumbHome: "START",
 			breadcrumbCurrent: "ÜBER",
 			eyebrow: "WER ICH BIN",
 			title: "ÜBER TISHU",
-			lead: "Ich bin Tishu, Streamer, Content Creator und Student der THA aus der Region Augsburg. Bei mir treffen Anime, Gaming, Horror, Fantasy und Competitive Content auf eine Person, die auch gern über sich selbst lacht.",
+			lead: "Ich bin Tishu, Helfer und Übersetzer verschiedener Events auf Kyodo. Schreibt mich gerne an, ich beiße auch nicht!",
 			storyTitle: "WAS ICH SO MACHE",
-			storyText: "Ich streame Games, rede über Dinge, die mich begeistern, und nehme euch mit in meine kleinen digitalen Eskalationen. Mal taktisch, mal komplett lost, aber selten ohne Meinung.",
-			storyText2: "Zwischen Anime-Rabbit-Holes, Horror, Fantasy und Competitive Grind entsteht Content mit Persönlichkeit. Wenn dabei ein Plan existiert, wurde er vermutlich gerade von mir selbst vergessen.",
+			storyText: "Ich helfe bei verschiedenen Aktivitäten soweit ich kann, übersetze meistens Aktivitäten, Chatbeschreibungen und Weiteres aus dem Englischen ins Deutsche und bei Bedarf auch gerne in die verkehrte Richtung.",
+			storyText2: "Ich freue mich über kreative Aufgaben, unkomplizierte Zusammenarbeit und die kleine Herausforderung, Texte so zu verändern, dass sie wirklich verständlich und angenehm wirken.",
 			photoCaption1: "Tishu",
 			photoCaption2: "Rebecca",
 			valuesTitle: "WAS MIR WICHTIG IST",
@@ -68,7 +53,7 @@ const translations = {
 			ctaText: "Ob beim Stream, auf Social Media oder mitten im nächsten Rabbit-Hole: Schön, dass du da bist."
 		},
 		games: {
-			breadcrumbCurrent: "GAMES",
+			breadcrumbCurrent: "EVENTS",
 			eyebrow: "WAS ICH SPIELE",
 			title: "MEINE GAMES",
 			lead: "Hier landen die Games, die mich gerade packen: von taktischem Competitive Grind über Anime-Fights bis zu Horror, bei dem ich mich anschließend frage, warum ich das freiwillig mache.",
@@ -147,15 +132,14 @@ const translations = {
 		nav: {
 			home: "HOME",
 			about: "ABOUT",
-			team: "GAMES",
 			events: "EVENTS",
-			form: "FORM"
+			friends: "FRIENDS"
 		},
 		labels: {
 			language: "LANGUAGE"
 		},
 		hero: {
-			motto: "RISE",
+			motto: "WELCOME",
 			title: "ENTER THE FIGHT WITH PRECISION AND PRESENCE",
 			copy: "Competitive focus, a clear identity, and a stage for a team that does not need to shout to stand out.",
 			cta: "DISCOVER MORE"
@@ -163,7 +147,6 @@ const translations = {
 		footer: {
 			socials: "SOCIALS",
 			contact: "CONTACT",
-			imprint: "IMPRINT",
 			legal: "LEGAL"
 		},
 		cookie: {
@@ -177,28 +160,15 @@ const translations = {
 			control: "You can delete stored website data at any time through your browser settings. When you choose another language, your new preference is applied automatically.",
 			close: "CLOSE"
 		},
-		imprint: {
-			title: "IMPRINT",
-			provider: "INFORMATION ACCORDING TO SECTION 5 TMG",
-			city: "86316 FRIEDBERG",
-			contact: "CONTACT",
-			emailLabel: "EMAIL:",
-			disclaimer: "DISCLAIMER",
-			disclaimerText: "The contents of this website have been created with the greatest possible care. However, we cannot guarantee the accuracy, completeness, or timeliness of the content.",
-			externalLinks: "EXTERNAL LINKS",
-			externalLinksText: "This website contains links to external third-party websites whose content is beyond our control. The respective provider or operator of each linked website is always responsible for its content.",
-			copyright: "COPYRIGHT",
-			copyrightText: "The content and works created by the site operators on this website are subject to German copyright law. Reproduction, editing, distribution, and any kind of exploitation beyond the limits of copyright law require the written consent of the respective author or creator."
-		},
 		about: {
 			breadcrumbHome: "HOME",
 			breadcrumbCurrent: "ABOUT",
 			eyebrow: "WHO I AM",
 			title: "ABOUT TISHU",
-			lead: "I am Tishu, a streamer, content creator, and THA student from the Augsburg region. My content mixes anime, gaming, horror, fantasy, and competitive play with a healthy habit of laughing at myself.",
+			lead: "I am Tishu, a helper and translator for various events on Kyodo. Feel free to message me — I do bite, but only metaphorically.",
 			storyTitle: "WHAT I DO",
-			storyText: "I stream games, talk about the things I enjoy, and bring you along for my small digital escalations. Sometimes tactical, sometimes completely lost, but rarely without an opinion.",
-			storyText2: "Between anime rabbit holes, horror, fantasy, and the competitive grind, I make content with personality. If there is a plan, I have probably just forgotten it.",
+			storyText: "I help with various activities wherever I can, mostly translating events, chat descriptions, and other text from English into German, and sometimes gladly the other way around when needed.",
+			storyText2: "I enjoy creative tasks, straightforward collaboration, and the little challenge of reshaping text so it feels natural, clear, and pleasant to read.",
 			photoCaption1: "Tishu",
 			photoCaption2: "Rebecca",
 			valuesTitle: "WHAT MATTERS TO ME",
@@ -212,7 +182,7 @@ const translations = {
 			ctaText: "On stream, on social media, or in the next rabbit hole: glad you are here."
 		},
 		games: {
-			breadcrumbCurrent: "GAMES",
+			breadcrumbCurrent: "EVENTS",
 			eyebrow: "WHAT I PLAY",
 			title: "MY GAMES",
 			lead: "These are the games currently pulling me in: tactical competitive grinds, anime fighters, and horror that makes me wonder why I do this voluntarily.",
@@ -287,148 +257,649 @@ const translations = {
 			tag4: "ATMOSPHERIC"
 		}
 	},
-	pl: {
+	es: {
 		nav: {
-			home: "START",
-			about: "O MNIE",
-			team: "GRY",
-			events: "STREAMY",
-			form: "KONTAKT"
+			home: "INICIO",
+			about: "SOBRE MÍ",
+			events: "EVENTOS",
+			friends: "AMIGOS"
 		},
 		labels: {
-			language: "JĘZYK"
+			language: "IDIOMA"
 		},
 		hero: {
-			motto: "POWSTAŃ",
-			title: "WEJDŹ DO GRY",
-			copy: "Gaming, anime, horror i fantasy z odrobiną competitive chaosu oraz osobą, która nie zawsze udaje, że ma plan.",
-			cta: "DOWIEDZ SIĘ WIĘCEJ"
+			motto: "BIENVENIDO",
+			title: "ENTRA EN LA PELEA CON PRECISIÓN Y PRESENCIA",
+			copy: "Competición, estilo y una identidad clara para una marca que no necesita gritar para destacar.",
+			cta: "DESCUBRIR MÁS"
 		},
 		footer: {
-			socials: "SOCIAL MEDIA",
-			contact: "KONTAKT",
-			imprint: "IMPRESSUM",
-			legal: "INFORMACJE PRAWNE"
+			socials: "REDES",
+			contact: "CONTACTO",
+			legal: "LEGAL"
 		},
 		cookie: {
-			title: "USTAWIENIA COOKIES",
-			intro: "Tutaj znajdziesz informacje o tym, jak Tishu korzysta z cookies i podobnych technologii.",
-			purposeTitle: "DLACZEGO UŻYWAM COOKIES",
-			purpose: "Cookies i pamięć lokalna pomagają zapisywać wybór języka i zapewniają sprawne działanie strony. Tishu nie używa ich do spersonalizowanych reklam.",
-			dataTitle: "JAKIE DANE SĄ ZAPISYWANE",
-			data: "Ostatnio wybrany język jest zapisywany lokalnie w przeglądarce. Dzięki temu pozostaje aktywny po odświeżeniu strony lub kolejnej wizycie. Dane nie są wysyłane do Tishu.",
-			controlTitle: "TWÓJ WYBÓR",
-			control: "Zapisane dane strony możesz w każdej chwili usunąć w ustawieniach przeglądarki.",
-			close: "ZAMKNIJ"
-		},
-		imprint: {
-			title: "IMPRESSUM",
-			provider: "INFORMACJE ZGODNIE Z § 5 TMG",
-			city: "UZUPEŁNIJ ADRES",
-			contact: "KONTAKT",
-			emailLabel: "E-MAIL:",
-			disclaimer: "WYŁĄCZENIE ODPOWIEDZIALNOŚCI",
-			disclaimerText: "Treści na tej stronie zostały przygotowane z należytą starannością. Nie gwarantujemy jednak ich poprawności, kompletności ani aktualności.",
-			externalLinks: "LINKI ZEWNĘTRZNE",
-			externalLinksText: "Ta strona zawiera linki do zewnętrznych stron osób trzecich, za których treść nie odpowiadamy.",
-			copyright: "PRAWA AUTORSKIE",
-			copyrightText: "Treści i utwory stworzone przez operatora tej strony podlegają ochronie prawem autorskim."
+			title: "CONFIGURACIÓN DE COOKIES",
+			intro: "Aquí encontrarás información sobre cómo Tishu usa cookies y tecnologías similares.",
+			purposeTitle: "¿POR QUÉ USAMOS COOKIES?",
+			purpose: "Las cookies y el almacenamiento local ayudan a recordar tu preferencia de idioma y a mantener el sitio funcionando correctamente. Tishu no las usa para publicidad personalizada.",
+			dataTitle: "¿QUÉ DATOS SE GUARDAN?",
+			data: "Tu último idioma seleccionado se guarda localmente en tu navegador. Así permanece activo al recargar o volver más tarde. Esta configuración no se envía a Tishu.",
+			controlTitle: "TU ELECCIÓN",
+			control: "Puedes borrar los datos almacenados del sitio en cualquier momento desde la configuración de tu navegador. Si eliges otro idioma, la nueva preferencia se aplica automáticamente.",
+			close: "CERRAR"
 		},
 		about: {
-			breadcrumbHome: "START",
-			breadcrumbCurrent: "O MNIE",
-			eyebrow: "KIM JESTEM",
-			title: "O TISHU",
-			lead: "Jestem Tishu, streamerem, twórcą internetowym i studentem THA z regionu Augsburga. Łączę anime, gaming, horror, fantasy i competitive content z umiejętnością śmiania się z samego siebie.",
-			storyTitle: "CO ROBIĘ",
-			storyText: "Streamuję gry, gadam o rzeczach, które mnie jarają, i zabieram was w moje małe cyfrowe eskalacje. Czasem taktycznie, czasem kompletnie zagubiony, ale prawie zawsze z opinią.",
-			storyText2: "Pomiędzy anime rabbit holes, horrorem, fantasy i competitive grindem tworzę content z charakterem. Jeśli istnieje jakiś plan, prawdopodobnie właśnie go zapomniałem.",
+			breadcrumbHome: "INICIO",
+			breadcrumbCurrent: "SOBRE MÍ",
+			eyebrow: "QUIÉN SOY",
+			title: "SOBRE TISHU",
+			lead: "Soy Tishu, ayudante y traductor de varios eventos en Kyodo. Si quieres, escríbeme; no muerdo.",
+			storyTitle: "¿QUÉ HAGO?",
+			storyText: "Ayudo en distintas actividades cuando puedo, sobre todo traduciendo eventos, descripciones de chat y otros textos del inglés al alemán, y a veces también al revés.",
+			storyText2: "Disfruto con los trabajos creativos, la colaboración sencilla y el pequeño reto de reescribir textos para que sean claros, naturales y agradables de leer.",
 			photoCaption1: "Tishu",
 			photoCaption2: "Rebecca",
-			valuesTitle: "CO JEST DLA MNIE WAŻNE",
-			value1Title: "SZCZEROŚĆ",
-			value1Text: "Szczery content zamiast udawanej perfekcji. Wolę, żeby mówiła za mnie osobowość.",
-			value2Title: "COMMUNITY",
-			value2Text: "Społeczność zamiast nadawania w jedną stronę. Jesteście tam, gdy dobry plan zmienia się w kompletny absurd.",
-			value3Title: "CIEKAWOŚĆ",
-			value3Text: "Nowe gry, nowe pomysły i od czasu do czasu kontrolowana katastrofa.",
-			ctaTitle: "WPADAJ NA CZAT",
-			ctaText: "Na streamie, w social mediach albo w kolejnym rabbit hole: dobrze, że jesteś."
+			valuesTitle: "LO QUE ME IMPORTA",
+			value1Title: "FILOSOFÍA",
+			value1Text: "Contenido honesto por encima de una perfección artificial. Prefiero que la personalidad hable.",
+			value2Title: "COMUNIDAD",
+			value2Text: "Comunidad por encima de la transmisión unilateral. Estás ahí cuando un buen plan se convierte en un caos total.",
+			value3Title: "FUTURO",
+			value3Text: "Mantener la curiosidad. Nuevos juegos, nuevas ideas y de vez en cuando un poco de caos controlado.",
+			ctaTitle: "ÚNETE AL CHAT",
+			ctaText: "En stream, en redes o en el siguiente agujero de conejo: me alegra que estés aquí."
 		},
 		games: {
-			breadcrumbCurrent: "GRY",
-			eyebrow: "W CO GRAM",
-			title: "MOJE GRY",
-			lead: "Gry, które aktualnie mnie wciągają: taktyczny competitive grind, anime fightery i horrory, przy których pytam siebie, po co robię to dobrowolnie.",
+			breadcrumbCurrent: "EVENTOS",
+			eyebrow: "LO QUE JUEGO",
+			title: "MIS JUEGOS",
+			lead: "Estos son los juegos que me están atrapando: grind competitivo, peleas anime y horror que me hacen preguntarme por qué lo hago voluntariamente.",
 			card1Title: "VALORANT",
 			card1Tag1: "FPS",
-			card1Tag2: "戦術",
-			card1Tag3: "5対5",
+			card1Tag2: "TACTICAS",
+			card1Tag3: "5 VS 5",
 			card2Title: "GUILTY GEAR -STRIVE-",
-			card2Tag1: "対戦格闘",
-			card2Tag2: "POJEDYNEK",
-			card2Tag3: "1対1",
+			card2Tag1: "PELEA",
+			card2Tag2: "DUEL",
+			card2Tag3: "1 VS 1",
 			card3Title: "SILVER PALACE",
 			card3Tag1: "HORROR",
-			card3Tag2: "FABUŁA",
-			card3Tag3: "SINGLEPLAYER"
+			card3Tag2: "HISTORIA",
+			card3Tag3: "UN JUGADOR"
 		},
 		ggst: {
-			breadcrumbGames: "GRY",
+			breadcrumbGames: "JUEGOS",
 			breadcrumbCurrent: "GUILTY GEAR STRIVE",
-			availability: "DOSTĘPNE TERAZ",
-			eyebrow: "BEZKOMPROMISOWE POJEDYNKI",
+			availability: "YA DISPONIBLE",
+			eyebrow: "DUELAS IMPERDIBLES",
 			title: "GUILTY GEAR -STRIVE-",
-			subtitle: "Gdy styl spotyka precyzję",
-			overviewTitle: "OPIS GRY",
-			overviewText1: "GUILTY GEAR -STRIVE- to najnowsza odsłona kultowej serii bijatyk od Arc System Works. Ręcznie malowane tła, metalowa ścieżka dźwiękowa i system Roman Cancel łączą efektowne combosy z głębią taktyczną.",
-			overviewText2: "Niezależnie od tego, czy grasz przez rollback netcode, czy na dużej scenie turniejowej, -STRIVE- oznacza bezkompromisowe pojedynki 1 na 1, w których liczą się odczyty, timing i nerwy.",
-			overviewText3: "Dla mnie Guilty Gear to scena, na której styl i umiejętności zderzają się z wątpliwymi decyzjami. Są rankedy, anime energia i momenty, które prawie wyglądają na zaplanowane.",
-			releaseDateLabel: "DATA PREMIERY",
-			releaseDateValue: "11 czerwca 2021",
-			tagsLabel: "TAGI",
-			tag1: "BIJATYKA",
-			tag2: "1 NA 1",
+			subtitle: "Donde el estilo se encuentra con la precisión",
+			overviewTitle: "VISIÓN GENERAL",
+			overviewText1: "GUILTY GEAR -STRIVE- es la última entrega de la famosa serie de peleas de Arc System Works. Con fondos pintados a mano, una banda sonora metálica y su sistema Roman Cancel, combina combos explosivos con gran profundidad táctica.",
+			overviewText2: "Ya sea por rollback netcode contra jugadores de todo el mundo o en los grandes escenarios de torneos, -STRIVE- representa duelos 1v1 sin concesiones en los que leer, cronometrar y mantener la calma deciden el resultado.",
+			overviewText3: "Para mí, Guilty Gear es más que un juego: es un escenario donde el estilo y la habilidad chocan. Traigo partidas clasificatorias, decisiones cuestionables y momentos que casi parecen intencionales.",
+			releaseDateLabel: "FECHA DE LANZAMIENTO",
+			releaseDateValue: "11 de junio de 2021",
+			tagsLabel: "ETIQUETAS",
+			tag1: "PELEA",
+			tag2: "1 VS 1",
 			tag3: "ANIME",
-			tag4: "Arc System Works"
+			tag4: "ARC SYSTEM WORKS"
 		},
 		valorant: {
-			breadcrumbGames: "GRY",
+			breadcrumbGames: "JUEGOS",
 			breadcrumbCurrent: "VALORANT",
-			availability: "DOSTĘPNE TERAZ",
-			eyebrow: "TAKTYKA SPOTYKA PRECYZJĘ",
+			availability: "YA DISPONIBLE",
+			eyebrow: "TACTICA Y PRECISIÓN",
 			title: "VALORANT",
-			subtitle: "Tu każda decyzja ma znaczenie",
-			overviewTitle: "OPIS GRY",
-			overviewText1: "VALORANT to taktyczna strzelanka 5 na 5 od Riot Games, łącząca precyzyjny gunplay z unikalnymi zdolnościami agentów. Każda runda wymaga komunikacji, dobrego timingu utility i stalowych nerwów.",
-			overviewText2: "VALORANT nagradza zespoły, które myślą i działają wspólnie. Ja natomiast próbuję podejmować dobre decyzje i czasem na żywo pokazuję, czego lepiej nie robić.",
-			overviewText3: "Dla mnie VALORANT to miejsce, w którym głębia taktyczna spotyka competitive chaos. Wchodzę do kolejki, robię calle i liczę, że tym razem plan przetrwa dłużej niż jedną rundę.",
-			releaseDateLabel: "DATA PREMIERY",
-			releaseDateValue: "2 czerwca 2020",
-			tagsLabel: "TAGI",
+			subtitle: "Donde cada decisión cuenta",
+			overviewTitle: "VISIÓN GENERAL",
+			overviewText1: "VALORANT es el shooter táctico 5v5 de Riot Games, que combina gunplay preciso con habilidades únicas de los agentes. Cada ronda exige comunicación clara, timing inteligente y nervios de acero en el momento decisivo.",
+			overviewText2: "Ya sea para subir de rango o competir sobre el escenario, VALORANT premia a los equipos que piensan y actúan como una sola unidad. Ningún agente gana solo: solo la estrategia coordinada y la confianza mutua llevan a la victoria.",
+			overviewText3: "Para mí, VALORANT es el punto donde la profundidad táctica se encuentra con el caos competitivo. Me pongo en cola, intento hacer llamadas inteligentes y a veces doy una demostración en directo de lo que no se debe hacer.",
+			releaseDateLabel: "FECHA DE LANZAMIENTO",
+			releaseDateValue: "2 de junio de 2020",
+			tagsLabel: "ETIQUETAS",
 			tag1: "FPS",
-			tag2: "TAKTYKA",
-			tag3: "5 NA 5",
-			tag4: "Riot Games"
+			tag2: "TACTICA",
+			tag3: "5 VS 5",
+			tag4: "RIOT GAMES"
 		},
 		silverpalace: {
-			breadcrumbGames: "GRY",
+			breadcrumbGames: "JUEGOS",
 			breadcrumbCurrent: "SILVER PALACE",
-			availability: "JUŻ WKRÓTCE",
-			eyebrow: "CISZA, KTÓRA KRZYCZY",
+			availability: "YA DISPONIBLE",
+			eyebrow: "SILENCIO QUE GRITA MÁS FUERTE",
 			title: "SILVER PALACE",
-			subtitle: "Miejsce, do którego nie powinieneś wracać",
-			overviewTitle: "OPIS GRY",
-			overviewText1: "SILVER PALACE to klimatyczny horror dla jednego gracza, który stawia na psychologiczny niepokój zamiast tanich jumpscare'ów. W opuszczonych korytarzach i wyblakłych wspomnieniach historia odsłania się kawałek po kawałku.",
-			overviewText2: "Zwiedzaj posiadłość pełną sekretów, gdzie każdy dźwięk ma znaczenie, a każda decyzja niesie konsekwencje. Najważniejsze są napięcie, narracja i poczucie, że nigdy nie jest naprawdę bezpiecznie.",
-			overviewText3: "Dla mnie Silver Palace to idealny pretekst, żeby wspólnie odkrywać mroczną historię. Będą let's playe, teorie i decyzje, przy których czat zacznie pytać, czy wszystko u mnie w porządku.",
-			releaseDateLabel: "DATA PREMIERY",
-			releaseDateValue: "WKRÓTCE",
-			tagsLabel: "TAGI",
+			subtitle: "Un lugar al que no deberías haber vuelto",
+			overviewTitle: "VISIÓN GENERAL",
+			overviewText1: "SILVER PALACE es una experiencia de terror atmosférica para un jugador basada en el terror psicológico en lugar de jumpscares baratos. Entre pasillos abandonados y recuerdos difuminados, una historia se va revelando pieza a pieza.",
+			overviewText2: "Explora una mansión llena de secretos, donde cada sonido tiene significado y cada decisión tiene consecuencias. El foco está en la tensión, la narrativa y la sensación de no sentirte nunca realmente seguro.",
+			overviewText3: "Para mí, Silver Palace es la excusa perfecta para explorar una historia oscura juntos. Espera let's plays, teorías y decisiones que hacen que el chat pregunte si estoy bien.",
+			releaseDateLabel: "FECHA DE LANZAMIENTO",
+			releaseDateValue: "Próximamente",
+			tagsLabel: "ETIQUETAS",
 			tag1: "HORROR",
-			tag2: "FABUŁA",
-			tag3: "SINGLEPLAYER",
-			tag4: "KLIMATYCZNA"
+			tag2: "HISTORIA",
+			tag3: "UN JUGADOR",
+			tag4: "ATMOSFÉRICO"
+		}
+	},
+	pt: {
+		nav: {
+			home: "INÍCIO",
+			about: "SOBRE",
+			events: "EVENTOS",
+			friends: "AMIGOS"
+		},
+		labels: {
+			language: "IDIOMA"
+		},
+		hero: {
+			motto: "BEM-VINDO",
+			title: "ENTRE NA BATALHA COM PRECISÃO E PRESENÇA",
+			copy: "Foco competitivo, identidade clara e um palco para uma marca que não precisa gritar para se destacar.",
+			cta: "DESCUBRA MAIS"
+		},
+		footer: {
+			socials: "REDES",
+			contact: "CONTATO",
+			legal: "LEGAL"
+		},
+		cookie: {
+			title: "CONFIGURAÇÕES DE COOKIES",
+			intro: "Aqui você encontra informações sobre como a Tishu usa cookies e tecnologias semelhantes.",
+			purposeTitle: "POR QUE USAMOS COOKIES",
+			purpose: "Cookies e armazenamento local ajudam a lembrar sua preferência de idioma e manter o site funcionando corretamente. A Tishu não os usa para publicidade personalizada.",
+			dataTitle: "QUAIS DADOS SÃO ARMAZENADOS",
+			data: "Seu último idioma selecionado é armazenado localmente no seu navegador. Isso mantém a seleção ao recarregar ou voltar depois. Essa configuração não é enviada para a Tishu.",
+			controlTitle: "SUA ESCOLHA",
+			control: "Você pode apagar os dados do site a qualquer momento nas configurações do navegador. Quando você escolher outro idioma, a nova preferência é aplicada automaticamente.",
+			close: "FECHAR"
+		},
+		about: {
+			breadcrumbHome: "INÍCIO",
+			breadcrumbCurrent: "SOBRE",
+			eyebrow: "QUEM SOU EU",
+			title: "SOBRE A TISHU",
+			lead: "Sou a Tishu, ajudante e tradutora de vários eventos no Kyodo. Pode me mandar mensagem; não mordo.",
+			storyTitle: "O QUE FAÇO",
+			storyText: "Ajudo em diferentes atividades sempre que posso, principalmente traduzindo eventos, descrições de chat e outros textos do inglês para o alemão, e às vezes também no sentido contrário.",
+			storyText2: "Gosto de tarefas criativas, colaboração simples e do pequeno desafio de adaptar textos para que fiquem claros, naturais e agradáveis de ler.",
+			photoCaption1: "Tishu",
+			photoCaption2: "Rebecca",
+			valuesTitle: "O QUE ME IMPORTA",
+			value1Title: "FILOSOFIA",
+			value1Text: "Conteúdo honesto acima da perfeição artificial. Prefiro deixar a personalidade falar.",
+			value2Title: "COMUNIDADE",
+			value2Text: "Comunidade acima da transmissão unilateral. Você está lá quando um bom plano vira um caos completo.",
+			value3Title: "FUTURO",
+			value3Text: "Manter a curiosidade. Novos jogos, novas ideias e de vez em quando um caos controlado.",
+			ctaTitle: "ENTRE NO CHAT",
+			ctaText: "No stream, nas redes ou no próximo buraco de coelho: fico feliz que você esteja aqui."
+		},
+		games: {
+			breadcrumbCurrent: "EVENTOS",
+			eyebrow: "O QUE EU JOGO",
+			title: "MEUS JOGOS",
+			lead: "Esses são os jogos que estão me prendendo: grind competitivo, lutas anime e terror que me fazem questionar por que faço isso voluntariamente.",
+			card1Title: "VALORANT",
+			card1Tag1: "FPS",
+			card1Tag2: "TACTICS",
+			card1Tag3: "5 VS 5",
+			card2Title: "GUILTY GEAR -STRIVE-",
+			card2Tag1: "LUTA",
+			card2Tag2: "DUEL",
+			card2Tag3: "1 VS 1",
+			card3Title: "SILVER PALACE",
+			card3Tag1: "HORROR",
+			card3Tag2: "HISTÓRIA",
+			card3Tag3: "UM JOGADOR"
+		},
+		ggst: {
+			breadcrumbGames: "JOGOS",
+			breadcrumbCurrent: "GUILTY GEAR STRIVE",
+			availability: "DISPONÍVEL AGORA",
+			eyebrow: "DUELAS IMPERDÍVEIS",
+			title: "GUILTY GEAR -STRIVE-",
+			subtitle: "Onde estilo encontra precisão",
+			overviewTitle: "VISÃO GERAL",
+			overviewText1: "GUILTY GEAR -STRIVE- é a mais recente entrada da icônica série de fighting games da Arc System Works. Com cenários pintados à mão, trilha sonora metálica e o sistema Roman Cancel, combina combos explosivos com grande profundidade tática.",
+			overviewText2: "Seja por rollback netcode contra jogadores de todo o mundo ou nos maiores palcos de torneios, -STRIVE- representa duelos 1v1 sem concessões, em que leitura, timing e nervo definem vitória ou derrota.",
+			overviewText3: "Para mim, Guilty Gear é mais do que um jogo: é um palco onde estilo e habilidade colidem. Eu trago partidas ranqueadas, decisões duvidosas e momentos que quase parecem intencionais.",
+			releaseDateLabel: "DATA DE LANÇAMENTO",
+			releaseDateValue: "11 de junho de 2021",
+			tagsLabel: "ETIQUETAS",
+			tag1: "LUTA",
+			tag2: "1 VS 1",
+			tag3: "ANIME",
+			tag4: "ARC SYSTEM WORKS"
+		},
+		valorant: {
+			breadcrumbGames: "JOGOS",
+			breadcrumbCurrent: "VALORANT",
+			availability: "DISPONÍVEL AGORA",
+			eyebrow: "TACTICA COM PRECISÃO",
+			title: "VALORANT",
+			subtitle: "Onde cada decisão conta",
+			overviewTitle: "VISÃO GERAL",
+			overviewText1: "VALORANT é o shooter tático 5v5 da Riot Games, combinando gunplay preciso com habilidades únicas dos agentes. Cada rodada exige comunicação clara, timing inteligente e nervos de aço no momento decisivo.",
+			overviewText2: "Seja para subir de ranking ou competir em palco, VALORANT recompensa times que pensam e agem como uma única unidade. Nenhum agente vence sozinho: apenas estratégia coordenada e confiança mútua levam à vitória.",
+			overviewText3: "Para mim, VALORANT é o espaço em que a profundidade tática encontra o caos competitivo. Eu entro na fila, tento fazer chamadas inteligentes e às vezes dou uma demonstração ao vivo do que não fazer.",
+			releaseDateLabel: "DATA DE LANÇAMENTO",
+			releaseDateValue: "2 de junho de 2020",
+			tagsLabel: "ETIQUETAS",
+			tag1: "FPS",
+			tag2: "TACTICA",
+			tag3: "5 VS 5",
+			tag4: "RIOT GAMES"
+		},
+		silverpalace: {
+			breadcrumbGames: "JOGOS",
+			breadcrumbCurrent: "SILVER PALACE",
+			availability: "DISPONÍVEL AGORA",
+			eyebrow: "SILÊNCIO QUE GRITA MAIS ALTO",
+			title: "SILVER PALACE",
+			subtitle: "Um lugar que você não deveria ter voltado",
+			overviewTitle: "VISÃO GERAL",
+			overviewText1: "SILVER PALACE é uma experiência atmosférica de horror para um jogador baseada no terror psicológico em vez de jumpscares baratos. Entre corredores abandonados e memórias desbotadas, uma história vai se revelando aos poucos.",
+			overviewText2: "Explore uma mansão cheia de segredos, onde cada som tem significado e cada decisão traz consequências. O foco está na tensão, na narrativa e na sensação de nunca estar realmente seguro.",
+			overviewText3: "Para mim, Silver Palace é a desculpa perfeita para explorar uma história sombria juntos. Espera let's-plays, teorias e decisões que fazem o chat perguntar se eu estou bem.",
+			releaseDateLabel: "DATA DE LANÇAMENTO",
+			releaseDateValue: "Em breve",
+			tagsLabel: "ETIQUETAS",
+			tag1: "HORROR",
+			tag2: "HISTÓRIA",
+			tag3: "UM JOGADOR",
+			tag4: "ATMOSFÉRICO"
+		}
+	},
+	fr: {
+		nav: {
+			home: "ACCUEIL",
+			about: "À PROPOS",
+			events: "ÉVÉNEMENTS",
+			friends: "AMIS"
+		},
+		labels: {
+			language: "LANGUE"
+		},
+		hero: {
+			motto: "BIENVENUE",
+			title: "ENTRE DANS LE COMBAT AVEC PRÉCISION ET PRÉSENCE",
+			copy: "Un focus compétitif, une identité claire et un espace pour une marque qui n’a pas besoin de crier pour se faire remarquer.",
+			cta: "DÉCOUVRIR"
+		},
+		footer: {
+			socials: "RÉSEAUX",
+			contact: "CONTACT",
+			legal: "LÉGAL"
+		},
+		cookie: {
+			title: "PARAMÈTRES DES COOKIES",
+			intro: "Tu trouveras ici des informations sur l’utilisation des cookies et autres technologies similaires par Tishu.",
+			purposeTitle: "POURQUOI NOUS UTILISONS DES COOKIES",
+			purpose: "Les cookies et le stockage local aident à mémoriser votre langue préférée et à maintenir le site fiable. Tishu ne les utilise pas pour la publicité personnalisée.",
+			dataTitle: "QUELLES DONNÉES SONT ENREGISTRÉES",
+			data: "La dernière langue sélectionnée est enregistrée localement dans votre navigateur. Cela la garde active lorsque vous rechargez la page ou revenez plus tard. Ce réglage n’est pas envoyé à Tishu.",
+			controlTitle: "VOTRE CHOIX",
+			control: "Vous pouvez supprimer les données du site à tout moment dans les paramètres de votre navigateur. Si vous choisissez une autre langue, le nouveau réglage s’applique automatiquement.",
+			close: "FERMER"
+		},
+		about: {
+			breadcrumbHome: "ACCUEIL",
+			breadcrumbCurrent: "À PROPOS",
+			eyebrow: "QUI JE SUIS",
+			title: "À PROPOS DE TISHU",
+			lead: "Je suis Tishu, assistant et traducteur pour différents événements sur Kyodo. N’hésite pas à m’écrire : je ne mord pas.",
+			storyTitle: "CE QUE JE FAIS",
+			storyText: "J’aide dans diverses activités autant que je peux, surtout en traduisant des événements, descriptions de chat et autres textes de l’anglais vers l’allemand, et parfois aussi dans l’autre sens.",
+			storyText2: "J’aime les tâches créatives, la collaboration simple et le petit défi de réécrire les textes pour qu’ils restent clairs, naturels et agréables à lire.",
+			photoCaption1: "Tishu",
+			photoCaption2: "Rebecca",
+			valuesTitle: "CE QUI COMPTE POUR MOI",
+			value1Title: "PHILOSOPHIE",
+			value1Text: "Un contenu honnête vaut mieux qu’une perfection artificielle. Je préfère laisser la personnalité parler.",
+			value2Title: "COMMUNAUTÉ",
+			value2Text: "La communauté avant la diffusion à sens unique. Vous êtes là quand un bon plan finit en chaos total.",
+			value3Title: "AVENIR",
+			value3Text: "Garder la curiosité. De nouveaux jeux, de nouvelles idées et parfois un peu de chaos maîtrisé.",
+			ctaTitle: "REJOINS LE CHAT",
+			ctaText: "En stream, sur les réseaux ou dans le prochain trou de lapin : content que tu sois là."
+		},
+		games: {
+			breadcrumbCurrent: "ÉVÉNEMENTS",
+			eyebrow: "CE QUE JE JOUE",
+			title: "MES JEUX",
+			lead: "Voici les jeux qui me captivent en ce moment : grind compétitif, combats anime et horreur qui me font me demander pourquoi je le fais volontairement.",
+			card1Title: "VALORANT",
+			card1Tag1: "FPS",
+			card1Tag2: "TACTIQUE",
+			card1Tag3: "5 VS 5",
+			card2Title: "GUILTY GEAR -STRIVE-",
+			card2Tag1: "COMBAT",
+			card2Tag2: "DUEL",
+			card2Tag3: "1 VS 1",
+			card3Title: "SILVER PALACE",
+			card3Tag1: "HORREUR",
+			card3Tag2: "HISTOIRE",
+			card3Tag3: "SOLO"
+		},
+		ggst: {
+			breadcrumbGames: "JEUX",
+			breadcrumbCurrent: "GUILTY GEAR STRIVE",
+			availability: "DISPONIBLE MAINTENANT",
+			eyebrow: "DUELS IMPITOYABLES",
+			title: "GUILTY GEAR -STRIVE-",
+			subtitle: "Où le style rencontre la précision",
+			overviewTitle: "APERÇU DU JEU",
+			overviewText1: "GUILTY GEAR -STRIVE- est la dernière entrée de la célèbre série de jeux de combat d’Arc System Works. Avec des décors peints à la main, une bande sonore métal et son système Roman Cancel, il mélange combos explosifs et grande profondeur tactique.",
+			overviewText2: "Que ce soit via le rollback netcode contre des joueurs du monde entier ou sur de grands scènes de tournoi, -STRIVE- incarne des duels 1v1 sans compromis où lecture, timing et nerveux décident du résultat.",
+			overviewText3: "Pour moi, Guilty Gear est plus qu’un simple jeu : c’est une scène où style et compétence se confrontent. J’apporte des matches classés, des décisions douteuses et des moments qui semblent presque intentionnels.",
+			releaseDateLabel: "DATE DE SORTIE",
+			releaseDateValue: "11 juin 2021",
+			tagsLabel: "ÉTIQUETTES",
+			tag1: "COMBAT",
+			tag2: "1 VS 1",
+			tag3: "ANIME",
+			tag4: "ARC SYSTEM WORKS"
+		},
+		valorant: {
+			breadcrumbGames: "JEUX",
+			breadcrumbCurrent: "VALORANT",
+			availability: "DISPONIBLE MAINTENANT",
+			eyebrow: "TACTIQUE ET PRÉCISION",
+			title: "VALORANT",
+			subtitle: "Où chaque décision compte",
+			overviewTitle: "APERÇU DU JEU",
+			overviewText1: "VALORANT est le FPS tactique 5v5 de Riot Games, qui allie précision au tir et capacités uniques des agents. Chaque manche exige communication claire, timing intelligent et sang-froid au moment décisif.",
+			overviewText2: "Que ce soit pour monter en classement ou pour jouer sur scène, VALORANT récompense les équipes qui pensent et agissent comme une seule unité. Aucun agent ne gagne seul: seule la stratégie coordonnée et la confiance mutuelle mènent à la victoire.",
+			overviewText3: "Pour moi, VALORANT est l’endroit où la profondeur tactique rencontre le chaos compétitif. Je rejoins la file, tente de faire les bons calls et donne parfois une démonstration en direct de ce qu’il ne faut pas faire.",
+			releaseDateLabel: "DATE DE SORTIE",
+			releaseDateValue: "2 juin 2020",
+			tagsLabel: "ÉTIQUETTES",
+			tag1: "FPS",
+			tag2: "TACTIQUE",
+			tag3: "5 VS 5",
+			tag4: "RIOT GAMES"
+		},
+		silverpalace: {
+			breadcrumbGames: "JEUX",
+			breadcrumbCurrent: "SILVER PALACE",
+			availability: "DISPONIBLE MAINTENANT",
+			eyebrow: "UN SILENCE PLUS FORT QUE LES CRIS",
+			title: "SILVER PALACE",
+			subtitle: "Un lieu où tu n’aurais jamais dû revenir",
+			overviewTitle: "APERÇU DU JEU",
+			overviewText1: "SILVER PALACE est une expérience d’horreur atmosphérique solo basée sur la peur psychologique plutôt que sur des jumpscares bon marché. Entre couloirs abandonnés et souvenirs effacés, une histoire se révèle petit à petit.",
+			overviewText2: "Explore une demeure pleine de secrets, où chaque bruit a un sens et chaque décision a des conséquences. L’accent est mis sur la tension, le récit et l’impression de ne jamais être vraiment en sécurité.",
+			overviewText3: "Pour moi, Silver Palace est la parfaite excuse pour explorer une histoire sombre ensemble. Attends-toi à des let’s plays, des théories et des décisions qui font demander au chat si tout va bien.",
+			releaseDateLabel: "DATE DE SORTIE",
+			releaseDateValue: "Bientôt",
+			tagsLabel: "ÉTIQUETTES",
+			tag1: "HORREUR",
+			tag2: "HISTOIRE",
+			tag3: "SOLO",
+			tag4: "ATMOSPHÉRIQUE"
+		}
+	},
+	ru: {
+		nav: {
+			home: "ГЛАВНАЯ",
+			about: "ОБО МНЕ",
+			events: "СОБЫТИЯ",
+			friends: "ДРУЗЬЯ"
+		},
+		labels: {
+			language: "ЯЗЫК"
+		},
+		hero: {
+			motto: "ДОБРО ПОЖАЛОВАТЬ",
+			title: "ВСТУПАЙ В БОЙ С ТОЧНОСТЬЮ И ПРИСУТСТВИЕМ",
+			copy: "Конкурентный фокус, чёткая идентичность и сцена для бренда, которому не нужно кричать, чтобы выделяться.",
+			cta: "УЗНАТЬ БОЛЬШЕ"
+		},
+		footer: {
+			socials: "СОЦСЕТИ",
+			contact: "КОНТАКТ",
+			legal: "ЮРИДИЧЕСКОЕ"
+		},
+		cookie: {
+			title: "НАСТРОЙКИ COOKIES",
+			intro: "Здесь вы сможете узнать, как Tishu использует cookies и похожие технологии.",
+			purposeTitle: "ЗАЧЕМ МЫ ИСПОЛЬЗУЕМ COOKIES",
+			purpose: "Cookies и локальное хранилище помогают запоминать предпочтения языка и обеспечивать корректную работу сайта. Tishu не использует их для персонализированной рекламы.",
+			dataTitle: "КАКИЕ ДАННЫЕ СОХРАНЯЮТСЯ",
+			data: "Ваш последний выбранный язык сохраняется локально в браузере. Это позволяет оставить его активным после обновления страницы или повторного захода. Эти данные не передаются Tishu.",
+			controlTitle: "ВАШ ВЫБОР",
+			control: "Вы можете удалить сохранённые данные сайта в любой момент через настройки браузера. При выборе другого языка новая настройка применяется автоматически.",
+			close: "ЗАКРЫТЬ"
+		},
+		about: {
+			breadcrumbHome: "ГЛАВНАЯ",
+			breadcrumbCurrent: "ОБО МНЕ",
+			eyebrow: "КТО Я",
+			title: "О TISHU",
+			lead: "Я Tishu, помощник и переводчик на различных событиях Kyodo. Пишите, не стесняйтесь — я не кусаюсь.",
+			storyTitle: "ЧЕМ Я ЗАНИМАЮСЬ",
+			storyText: "Я помогаю в разных активностях, где могу, в основном перевожу события, описания чатов и другой текст с английского на немецкий, а иногда и в обратную сторону.",
+			storyText2: "Мне нравятся творческие задачи, простое сотрудничество и маленькая задача — переделывать тексты так, чтобы они звучали естественно и приятно.",
+			photoCaption1: "Tishu",
+			photoCaption2: "Rebecca",
+			valuesTitle: "ЧТО ДЛЯ МЕНЯ ВАЖНО",
+			value1Title: "ФИЛОСОФИЯ",
+			value1Text: "Честный контент лучше подделанной идеальности. Я предпочитаю, чтобы говорила личность.",
+			value2Title: "СООБЩЕСТВО",
+			value2Text: "Сообщество важнее монолога. Вы рядом, когда хороший план превращается в полный хаос.",
+			value3Title: "БУДУЩЕЕ",
+			value3Text: "Оставаться любопытным. Новые игры, новые идеи и иногда контролируемый хаос.",
+			ctaTitle: "ПРИСОЕДИНЯЙСЯ К ЧАТУ",
+			ctaText: "В стриме, в соцсетях или в следующей кроличьей норе: рад, что ты здесь."
+		},
+		games: {
+			breadcrumbCurrent: "СОБЫТИЯ",
+			eyebrow: "В ЧТО Я ИГРАЮ",
+			title: "МОИ ИГРЫ",
+			lead: "Вот игры, которые меня сейчас захватывают: тактический соревновательный grind, аниме-баталии и хоррор, от которого я задаюсь вопросом, зачем я это делаю добровольно.",
+			card1Title: "VALORANT",
+			card1Tag1: "FPS",
+			card1Tag2: "Тактика",
+			card1Tag3: "5 НА 5",
+			card2Title: "GUILTY GEAR -STRIVE-",
+			card2Tag1: "Бой",
+			card2Tag2: "ДУЭЛЬ",
+			card2Tag3: "1 НА 1",
+			card3Title: "SILVER PALACE",
+			card3Tag1: "ХОРРОР",
+			card3Tag2: "ИСТОРИЯ",
+			card3Tag3: "ОДНОКЛАССНИК"
+		},
+		ggst: {
+			breadcrumbGames: "ИГРЫ",
+			breadcrumbCurrent: "GUILTY GEAR STRIVE",
+			availability: "УЖЕ ДОСТУПНО",
+			eyebrow: "НЕУМОЛИМЫЕ ДУЭЛИ",
+			title: "GUILTY GEAR -STRIVE-",
+			subtitle: "Где стиль встречает точность",
+			overviewTitle: "ОБЗОР ИГРЫ",
+			overviewText1: "GUILTY GEAR -STRIVE- — это новая часть культовой серии файтингов Arc System Works. С живописными фонами, громким металическим саундтреком и системой Roman Cancel она сочетает взрывные комбо и глубокую тактическую глубину.",
+			overviewText2: "Будь то матч по rollback netcode против игроков со всего мира или крупные турнирные сцены, -STRIVE- — это бескомпромиссные дуэли 1v1, где чтение, тайминг и выдержка решают исход.",
+			overviewText3: "Для меня Guilty Gear — это не просто игра, а площадка, где стиль и навык сталкиваются. Я привожу ранговые матчи, сомнительные решения и моменты, которые почти выглядят намеренными.",
+			releaseDateLabel: "ДАТА ВЫХОДА",
+			releaseDateValue: "11 июня 2021",
+			tagsLabel: "МЕТКИ",
+			tag1: "ФАЙТИНГ",
+			tag2: "1 НА 1",
+			tag3: "АНИМЕ",
+			tag4: "ARC SYSTEM WORKS"
+		},
+		valorant: {
+			breadcrumbGames: "ИГРЫ",
+			breadcrumbCurrent: "VALORANT",
+			availability: "УЖЕ ДОСТУПНО",
+			eyebrow: "ТАКТИКА И ТОЧНОСТЬ",
+			title: "VALORANT",
+			subtitle: "Где каждое решение важно",
+			overviewTitle: "ОБЗОР ИГРЫ",
+			overviewText1: "VALORANT — тактический шутер 5v5 от Riot Games, сочетающий точную стрельбу и уникальные способности агентов. Каждый раунд требует четкой коммуникации, грамотного тайминга и железных нервов в решающий момент.",
+			overviewText2: "Будь то ранговая прокачка или сцена турниров, VALORANT награждает команды, которые думают и действуют как единое целое. Ни один агент не побеждает в одиночку — только скоординированная стратегия и взаимное доверие ведут к победе.",
+			overviewText3: "Для меня VALORANT — это место, где тактическая глубина встречается с соревновательным хаосом. Я вхожу в очередь, пытаюсь принимать хорошие решения и иногда демонстрирую на живую, чего делать не стоит.",
+			releaseDateLabel: "ДАТА ВЫХОДА",
+			releaseDateValue: "2 июня 2020",
+			tagsLabel: "МЕТКИ",
+			tag1: "FPS",
+			tag2: "ТАКТИКА",
+			tag3: "5 НА 5",
+			tag4: "RIOT GAMES"
+		},
+		silverpalace: {
+			breadcrumbGames: "ИГРЫ",
+			breadcrumbCurrent: "SILVER PALACE",
+			availability: "УЖЕ ДОСТУПНО",
+			eyebrow: "ТИШИНА, КОТОРАЯ КРИЧИТ ГРОМЧЕ",
+			title: "SILVER PALACE",
+			subtitle: "Место, в которое не стоило возвращаться",
+			overviewTitle: "ОБЗОР ИГРЫ",
+			overviewText1: "SILVER PALACE — атмосферный хоррор для одного игрока, построенный на психологическом ужасе, а не на дешёвых jump scares. Среди заброшенных коридоров и блеклых воспоминаний история раскрывается по кусочкам.",
+			overviewText2: "Исследуйте поместье, полное секретов, где каждый звук имеет значение, а каждое решение приносит последствия. Основное внимание уделено напряжению, сюжету и ощущению, что вы никогда не в безопасности.",
+			overviewText3: "Для меня Silver Palace — идеальный повод исследовать мрачную историю вместе. Ожидайте let's-plays, теории и решения, после которых чат спросит, всё ли со мной в порядке.",
+			releaseDateLabel: "ДАТА ВЫХОДА",
+			releaseDateValue: "Скоро",
+			tagsLabel: "МЕТКИ",
+			tag1: "ХОРРОР",
+			tag2: "ИСТОРИЯ",
+			tag3: "ОДИНОЧНАЯ ИГРА",
+			tag4: "АТМОСФЕРНО"
+		}
+	},
+	ar: {
+		nav: {
+			home: "الرئيسية",
+			about: "عني",
+			events: "الفعاليات",
+			friends: "الأصدقاء"
+		},
+		labels: {
+			language: "اللغة"
+		},
+		hero: {
+			motto: "مرحبًا",
+			title: "ادخل المعركة بدقة وحضور",
+			copy: "تركيز تنافسي، هوية واضحة، ومساحة علامة لا تحتاج إلى الصراخ لكي تبرز.",
+			cta: "اكتشف المزيد"
+		},
+		footer: {
+			socials: "وسائل التواصل",
+			contact: "التواصل",
+			legal: "قانوني"
+		},
+		cookie: {
+			title: "إعدادات الكوكيز",
+			intro: "هنا يمكنك العثور على معلومات حول كيفية استخدام Tishu للكوكيز والتقنيات المشابهة.",
+			purposeTitle: "لماذا نستخدم الكوكيز",
+			purpose: "تساعد الكوكيز والتخزين المحلي في حفظ تفضيل لغتك والحفاظ على عمل الموقع بشكل موثوق. لا تستخدم Tishu هذه البيانات للإعلانات المخصصة.",
+			dataTitle: "ما البيانات التي يتم حفظها",
+			data: "يتم حفظ آخر لغة محددة محليًا داخل متصفحك. وهذا يجعلها فعالة عند التحديث أو العودة لاحقًا. هذه الإعدادات لا تُرسل إلى Tishu.",
+			controlTitle: "اختيارك",
+			control: "يمكنك حذف بيانات الموقع المخزنة في أي وقت من إعدادات متصفحك. عند اختيار لغة أخرى، يتم تطبيق الاختيار الجديد تلقائيًا.",
+			close: "إغلاق"
+		},
+		about: {
+			breadcrumbHome: "الرئيسية",
+			breadcrumbCurrent: "عني",
+			eyebrow: "من أنا",
+			title: "عن TISHU",
+			lead: "أنا Tishu، مساعد ومترجم لمختلف الفعاليات على Kyodo. تواصل معي بكل سرور، لا أعض.",
+			storyTitle: "ماذا أفعل",
+			storyText: "أساعد في أنشطة مختلفة قدر الإمكان، وأترجم في الغالب الفعاليات، أوصاف الدردشة وغيرها من النصوص من الإنجليزية إلى الألمانية، وأحيانًا في الاتجاه الآخر أيضًا.",
+			storyText2: "أحب المهام الإبداعية، والتعاون السلس، والتحدي الصغير في إعادة صياغة النصوص بحيث تكون واضحة وطبيعية وممتعة للقراءة.",
+			photoCaption1: "Tishu",
+			photoCaption2: "Rebecca",
+			valuesTitle: "ما الذي يهمني",
+			value1Title: "الفلسفة",
+			value1Text: "المحتوى الصادق أفضل من الكمال المصطنع. أفضل أن تتحدث الشخصية بدلًا من التمثيل.",
+			value2Title: "المجتمع",
+			value2Text: "المجتمع أهم من البث أحادي الاتجاه. أنت موجود عندما يتحول الخطة الجيدة إلى فوضى كاملة.",
+			value3Title: "المستقبل",
+			value3Text: "حافظ على الفضول. ألعاب جديدة، أفكار جديدة، وفي بعض الأحيان فوضى متحكم بها.",
+			ctaTitle: "انضم إلى الدردشة",
+			ctaText: "في البث، أو على وسائل التواصل، أو في الحفرة التالية: سعيد جدًا بوجودك هنا."
+		},
+		games: {
+			breadcrumbCurrent: "الفعاليات",
+			eyebrow: "ما ألعبه",
+			title: "ألعابي",
+			lead: "هذه الألعاب التي تستحوذ علي الآن: grind تنافسي، معارك أنمي، ورعب يجعلني أسأل نفسي لماذا أفعل هذا طوعًا.",
+			card1Title: "VALORANT",
+			card1Tag1: "FPS",
+			card1Tag2: "تكتيك",
+			card1Tag3: "5 ضد 5",
+			card2Title: "GUILTY GEAR -STRIVE-",
+			card2Tag1: "قتال",
+			card2Tag2: "مباراة",
+			card2Tag3: "1 ضد 1",
+			card3Title: "SILVER PALACE",
+			card3Tag1: "رعب",
+			card3Tag2: "قصة",
+			card3Tag3: "لعب فردي"
+		},
+		ggst: {
+			breadcrumbGames: "الألعاب",
+			breadcrumbCurrent: "GUILTY GEAR STRIVE",
+			availability: "متاح الآن",
+			eyebrow: "مبارزات لا هوادة فيها",
+			title: "GUILTY GEAR -STRIVE-",
+			subtitle: "حيث يلتقي الأسلوب مع الدقة",
+			overviewTitle: "نظرة عامة",
+			overviewText1: "GUILTY GEAR -STRIVE- هو أحدث إصدار في سلسلة ألعاب القتال الشهيرة من Arc System Works. مع لوحات ملونة، وموسيقى معدنية قوية، ونظام Roman Cancel الفريد، يجمع بين الضربات المدمرة وعمق تكتيكي كبير.",
+			overviewText2: "سواء عبر شبكة rollback ضد لاعبين من جميع أنحاء العالم أو على أكبر مسارح البطولات، يمثل -STRIVE- مبارزات 1v1 لا هوادة فيها، حيث يقرر القراءة والتوقيت والهدوء النتيجة.",
+			overviewText3: "بالنسبة لي، Guilty Gear أكثر من مجرد لعبة: إنه مكان يلتقي فيه الأسلوب والمهارة. أحمل مباريات ترتيب، قرارات مشكوك فيها، ولحظات تكاد تبدو متعمدة.",
+			releaseDateLabel: "تاريخ الإصدار",
+			releaseDateValue: "11 يونيو 2021",
+			tagsLabel: "العلامات",
+			tag1: "قتال",
+			tag2: "1 ضد 1",
+			tag3: "أنمي",
+			tag4: "ARC SYSTEM WORKS"
+		},
+		valorant: {
+			breadcrumbGames: "الألعاب",
+			breadcrumbCurrent: "VALORANT",
+			availability: "متاح الآن",
+			eyebrow: "التكتيك يلتقي بالدقة",
+			title: "VALORANT",
+			subtitle: "حيث كل قرار يهم",
+			overviewTitle: "نظرة عامة",
+			overviewText1: "VALORANT هو لعبة إطلاق نار تكتيكية 5v5 من Riot Games، تجمع بين إطلاق نار دقيق وقدرات وكلاء فريدة. تتطلب كل جولة تواصلًا واضحًا، وتوقيتًا ذكيًا، وأعصابًا قوية في اللحظة الحاسمة.",
+			overviewText2: "سواء كان grind رتب أو منافسة على المسرح، يكافئ VALORANT الفرق التي تفكر وتتصرف ككيان واحد. لا يفوز أي وكيل بمفرده — فالتخطيط المنسق والثقة المتبادلة فقط يقودان إلى النصر.",
+			overviewText3: "بالنسبة لي، VALORANT هو المكان الذي يلتقي فيه العمق التكتيكي بالفوضى التنافسية. أذهب في fila، أحاول اتخاذ قرارات ذكية، وأحيانًا أقدم عرضًا حيًا لما لا ينبغي فعله.",
+			releaseDateLabel: "تاريخ الإصدار",
+			releaseDateValue: "2 يونيو 2020",
+			tagsLabel: "العلامات",
+			tag1: "FPS",
+			tag2: "تكتيك",
+			tag3: "5 ضد 5",
+			tag4: "RIOT GAMES"
+		},
+		silverpalace: {
+			breadcrumbGames: "الألعاب",
+			breadcrumbCurrent: "SILVER PALACE",
+			availability: "متاح الآن",
+			eyebrow: "صمت يصرخ louder",
+			title: "SILVER PALACE",
+			subtitle: "مكان لا يجب أن تعود إليه",
+			overviewTitle: "نظرة عامة",
+			overviewText1: "SILVER PALACE هي تجربة رعب جوية ل singleplayer تعتمد على الرعب النفسي بدلًا من jump scares رخيصة. بين الممرات المهجورة والذكريات المتلاشية، تتكشف القصة قطعة تلو الأخرى.",
+			overviewText2: "استكشف قصرًا مليئًا بالأسرار، حيث يحمل كل صوت معنى وكل قرار عواقب. يركز المشروع على التوتر والسرد والشعور بعدم الأمان مطلقًا.",
+			overviewText3: "بالنسبة لي، Silver Palace هو ذريعة مثالية لاستكشاف قصة مظلمة معًا. تتوقع Let's Plays ونظريات وقرارات تجعل الدردشة تسأل إن كنت بخير.",
+			releaseDateLabel: "تاريخ الإصدار",
+			releaseDateValue: "قريبًا",
+			tagsLabel: "العلامات",
+			tag1: "رعب",
+			tag2: "قصة",
+			tag3: "لعب فردي",
+			tag4: "جوّي"
 		}
 	}
 };
@@ -445,9 +916,6 @@ const i18nNodes = document.querySelectorAll("[data-i18n]");
 const cookieTrigger = document.querySelector("[data-cookie-trigger]");
 const cookieModal = document.querySelector("[data-cookie-modal]");
 const cookieClose = document.querySelector("[data-cookie-close]");
-const imprintTrigger = document.querySelector("[data-imprint-trigger]");
-const imprintModal = document.querySelector("[data-imprint-modal]");
-const imprintClose = document.querySelector("[data-imprint-close]");
 const imageTriggers = document.querySelectorAll("[data-image-trigger]");
 const imageModal = document.querySelector("[data-image-modal]");
 const imagePreview = document.querySelector("[data-image-preview]");
@@ -456,7 +924,7 @@ const imageClose = document.querySelector("[data-image-close]");
 
 const languageStorageKey = "tishu-language";
 const storedLanguage = window.localStorage.getItem(languageStorageKey);
-let activeLanguage = translations[storedLanguage] ? storedLanguage : "de";
+let activeLanguage = translations[storedLanguage] ? storedLanguage : "en";
 
 const applyTranslations = (language) => {
 	const dictionary = translations[language];
@@ -496,14 +964,6 @@ const setCookieModalState = (isOpen) => {
 	cookieModal.setAttribute("aria-hidden", String(!isOpen));
 	if (isOpen) {
 		cookieClose.focus();
-	}
-};
-
-const setImprintModalState = (isOpen) => {
-	imprintModal.classList.toggle("is-open", isOpen);
-	imprintModal.setAttribute("aria-hidden", String(!isOpen));
-	if (isOpen) {
-		imprintClose.focus();
 	}
 };
 
@@ -579,7 +1039,6 @@ document.addEventListener("keydown", (event) => {
 		closeLanguageMenu();
 		setMenuState(false);
 		setCookieModalState(false);
-		setImprintModalState(false);
 		setImageModalState(false);
 	}
 });
@@ -589,17 +1048,6 @@ cookieClose.addEventListener("click", () => setCookieModalState(false));
 cookieModal.addEventListener("click", (event) => {
 	if (event.target === cookieModal) {
 		setCookieModalState(false);
-	}
-});
-
-imprintTrigger.addEventListener("click", (event) => {
-	event.preventDefault();
-	setImprintModalState(true);
-});
-imprintClose.addEventListener("click", () => setImprintModalState(false));
-imprintModal.addEventListener("click", (event) => {
-	if (event.target === imprintModal) {
-		setImprintModalState(false);
 	}
 });
 

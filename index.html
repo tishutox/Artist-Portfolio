@@ -11,7 +11,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
-		href="https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700&family=Sofia+Sans:wght@400;500;600;700&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Oi&family=Rubik:wght@400;500;600;700;800;900&display=swap"
 		rel="stylesheet"
 	>
 	<link rel="stylesheet" href="assets/css/styles.css">
@@ -52,13 +52,17 @@
 							aria-label="Sprache auswählen"
 							data-language-trigger
 						>
-							<span data-current-language>DE</span>
+							<span data-current-language>EN</span>
 							<i data-lucide="chevron-down"></i>
 						</button>
 						<div class="language-menu" role="menu" aria-label="Sprachauswahl">
-							<button type="button" class="is-active" data-language="de">DE</button>
-							<button type="button" data-language="en">EN</button>
-							<button type="button" data-language="pl">PL</button>
+							<button type="button" data-language="en" class="is-active">EN</button>
+							<button type="button" data-language="es">ES</button>
+							<button type="button" data-language="pt">PT</button>
+							<button type="button" data-language="fr">FR</button>
+							<button type="button" data-language="ru">RU</button>
+							<button type="button" data-language="de">DE</button>
+							<button type="button" data-language="ar">AR</button>
 						</div>
 					</div>
 				</div>
@@ -69,9 +73,8 @@
 			<nav class="mobile-nav" aria-label="Hauptnavigation">
 				<a href="index.html" data-i18n="nav.home">START</a>
 				<a href="about.html" data-i18n="nav.about">ÜBER</a>
-				<a href="games.html" data-i18n="nav.team">GAMES</a>
-				<a href="#" data-i18n="nav.events">EVENTS</a>
-				<a href="https://opnform.com/forms/contact-form-cu6ht2" data-i18n="nav.form">FORMULAR</a>
+				<a href="events.html" data-i18n="nav.events">EVENTS</a>
+				<a href="#" data-i18n="nav.friends">FRIENDS</a>
 			</nav>
 		</section>
 
@@ -79,7 +82,7 @@
 			<section class="hero" id="start" data-hero>
 				<div class="hero-backdrop"></div>
 				<div class="hero-content">
-					<p class="eyebrow hero-motto" data-i18n="hero.motto">ERHEBE DICH</p>
+					<p class="eyebrow hero-motto" data-i18n="hero.motto">WILLKOMMEN</p>
 				</div>
 			</section>
 		</main>
@@ -88,7 +91,6 @@
 			<nav class="footer-nav" aria-label="Footer Navigation">
 				<a href="#" data-i18n="footer.socials">SOZIALES</a>
 				<a href="#" data-i18n="footer.contact">KONTAKT</a>
-				<a href="#" data-i18n="footer.imprint" data-imprint-trigger>IMPRESSUM</a>
 				<a href="#" data-i18n="footer.legal">RECHTLICHES</a>
 			</nav>
 		</footer>
@@ -130,46 +132,6 @@
 				<p data-i18n="cookie.control">Du kannst gespeicherte Website-Daten jederzeit über die Einstellungen deines Browsers löschen. Wenn du eine andere Sprache auswählst, wird die neue Auswahl automatisch übernommen.</p>
 			</section>
 
-		</div>
-	</div>
-
-	<div class="cookie-modal" role="dialog" aria-modal="true" aria-labelledby="imprint-modal-title" aria-hidden="true" data-imprint-modal>
-		<div class="cookie-modal-content imprint-modal-content">
-			<div class="cookie-modal-header">
-				<div class="cookie-modal-title">
-					<h2 id="imprint-modal-title" data-i18n="imprint.title">IMPRESSUM</h2>
-				</div>
-				<button class="cookie-modal-dismiss" type="button" aria-label="Impressum schließen" data-imprint-close>
-					<i data-lucide="x" aria-hidden="true"></i>
-				</button>
-			</div>
-
-			<div class="cookie-modal-rule"></div>
-
-			<section class="cookie-modal-section">
-				<h3 data-i18n="imprint.provider">ANGABEN GEMÄSS § 5 TMG</h3>
-				<p><span>Tishu</span><br><span data-i18n="imprint.city">ANSCHRIFT ERGÄNZEN</span></p>
-			</section>
-
-			<section class="cookie-modal-section">
-				<h3 data-i18n="imprint.contact">KONTAKT</h3>
-				<p><span data-i18n="imprint.emailLabel">E-MAIL:</span> <a href="mailto:rayvenclan@proton.me">rayvenclan@proton.me</a></p>
-			</section>
-
-			<section class="cookie-modal-section">
-				<h3 data-i18n="imprint.disclaimer">HAFTUNGSAUSSCHLUSS</h3>
-				<p data-i18n="imprint.disclaimerText">Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.</p>
-			</section>
-
-			<section class="cookie-modal-section">
-				<h3 data-i18n="imprint.externalLinks">EXTERNE LINKS</h3>
-				<p data-i18n="imprint.externalLinksText">Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.</p>
-			</section>
-
-			<section class="cookie-modal-section">
-				<h3 data-i18n="imprint.copyright">URHEBERRECHT</h3>
-				<p data-i18n="imprint.copyrightText">Die durch die Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>
-			</section>
 		</div>
 	</div>
 
