@@ -742,10 +742,6 @@ main {
 }
 
 @media (max-width: 580px) {
-	.page-home .site-footer {
-		margin-top: 24px;
-	}
-
 	.cookie-trigger {
 		left: 16px;
 		bottom: 16px;
