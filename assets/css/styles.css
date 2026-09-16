@@ -691,6 +691,11 @@ main {
 		--header-height: 74px;
 	}
 
+	.page-home .hero {
+		height: calc(100svh + 12px);
+		min-height: calc(100svh + 12px);
+	}
+
 	.header-inner {
 		min-height: var(--header-height);
 		padding: 0 12px;
@@ -722,6 +727,7 @@ main {
 		font-size: clamp(2rem, 11vw, 3.8rem);
 		line-height: 1;
 		letter-spacing: 0.01em;
+		white-space: pre-line;
 		text-align: center;
 	}
 

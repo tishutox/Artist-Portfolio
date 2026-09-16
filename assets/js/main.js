@@ -54,6 +54,8 @@ const translations = {
 		},
 		games: {
 			breadcrumbCurrent: "EVENTS",
+			november: "November 2026",
+			october: "October 2026",
 			eyebrow: "WO ICH GEHOLFEN HABE",
 			title: "GEHOLFENE EVENTS",
 			lead: "Hier findest du Events, bei denen ich hinter den Kulissen geholfen, übersetzt, Menschen verbunden und dafür gesorgt habe, dass die richtigen Worte ihren Platz finden.",
@@ -183,6 +185,8 @@ const translations = {
 		},
 		games: {
 			breadcrumbCurrent: "EVENTS",
+			november: "November 2026",
+			october: "October 2026",
 			eyebrow: "WHERE I HELPED",
 			title: "HELPED EVENTS",
 			lead: "A look back at the events where I helped behind the scenes, translated, connected people, and made sure the right words found their place.",
@@ -268,7 +272,7 @@ const translations = {
 			language: "IDIOMA"
 		},
 		hero: {
-			motto: "BIENVENIDO",
+			motto: "BIEN-\nVENIDO",
 			title: "ENTRA EN LA PELEA CON PRECISIÓN Y PRESENCIA",
 			copy: "Competición, estilo y una identidad clara para una marca que no necesita gritar para destacar.",
 			cta: "DESCUBRIR MÁS"
@@ -312,6 +316,8 @@ const translations = {
 		},
 		games: {
 			breadcrumbCurrent: "EVENTOS",
+			november: "Noviembre de 2026",
+			october: "Octubre de 2026",
 			eyebrow: "DÓNDE AYUDÉ",
 			title: "EVENTOS EN LOS QUE AYUDÉ",
 			lead: "Un vistazo a los eventos en los que ayudé entre bastidores, traduje, conecté a personas y me aseguré de que cada palabra encontrara su lugar.",
@@ -397,7 +403,7 @@ const translations = {
 			language: "IDIOMA"
 		},
 		hero: {
-			motto: "BEM-VINDO",
+			motto: "BEM-\nVINDO",
 			title: "ENTRE NA BATALHA COM PRECISÃO E PRESENÇA",
 			copy: "Foco competitivo, identidade clara e um palco para uma marca que não precisa gritar para se destacar.",
 			cta: "DESCUBRA MAIS"
@@ -441,6 +447,8 @@ const translations = {
 		},
 		games: {
 			breadcrumbCurrent: "EVENTOS",
+			november: "Novembro de 2026",
+			october: "Outubro de 2026",
 			eyebrow: "ONDE AJUDEI",
 			title: "EVENTOS EM QUE AJUDEI",
 			lead: "Uma visão dos eventos em que ajudei nos bastidores, traduzi, conectei pessoas e cuidei para que cada palavra encontrasse seu lugar.",
@@ -526,7 +534,7 @@ const translations = {
 			language: "LANGUE"
 		},
 		hero: {
-			motto: "BIENVENUE",
+			motto: "BIEN-\nVENUE",
 			title: "ENTRE DANS LE COMBAT AVEC PRÉCISION ET PRÉSENCE",
 			copy: "Un focus compétitif, une identité claire et un espace pour une marque qui n’a pas besoin de crier pour se faire remarquer.",
 			cta: "DÉCOUVRIR"
@@ -570,6 +578,8 @@ const translations = {
 		},
 		games: {
 			breadcrumbCurrent: "ÉVÉNEMENTS",
+			november: "Novembre 2026",
+			october: "Octobre 2026",
 			eyebrow: "LÀ OÙ J'AI AIDÉ",
 			title: "ÉVÉNEMENTS AUXQUELS J'AI CONTRIBUÉ",
 			lead: "Un aperçu des événements auxquels j'ai contribué en coulisses, en traduisant, en rapprochant les personnes et en veillant à ce que chaque mot trouve sa place.",
@@ -655,7 +665,7 @@ const translations = {
 			language: "ЯЗЫК"
 		},
 		hero: {
-			motto: "ДОБРО ПОЖАЛОВАТЬ",
+			motto: "ДОБРО-\nПОЖАЛОВАТЬ",
 			title: "ВСТУПАЙ В БОЙ С ТОЧНОСТЬЮ И ПРИСУТСТВИЕМ",
 			copy: "Конкурентный фокус, чёткая идентичность и сцена для бренда, которому не нужно кричать, чтобы выделяться.",
 			cta: "УЗНАТЬ БОЛЬШЕ"
@@ -699,6 +709,8 @@ const translations = {
 		},
 		games: {
 			breadcrumbCurrent: "СОБЫТИЯ",
+			november: "Ноябрь 2026",
+			october: "Октябрь 2026",
 			eyebrow: "ГДЕ Я ПОМОГАЛ",
 			title: "СОБЫТИЯ, КОТОРЫМ Я ПОМОГАЛ",
 			lead: "Здесь собраны события, в которых я помогал за кулисами, переводил, знакомил людей и следил за тем, чтобы каждое слово нашло своё место.",
@@ -784,7 +796,7 @@ const translations = {
 			language: "اللغة"
 		},
 		hero: {
-			motto: "مرحبًا",
+			motto: "مر-\nحبًا",
 			title: "ادخل المعركة بدقة وحضور",
 			copy: "تركيز تنافسي، هوية واضحة، ومساحة علامة لا تحتاج إلى الصراخ لكي تبرز.",
 			cta: "اكتشف المزيد"
@@ -828,6 +840,8 @@ const translations = {
 		},
 		games: {
 			breadcrumbCurrent: "الفعاليات",
+			november: "نوفمبر 2026",
+			october: "أكتوبر 2026",
 			eyebrow: "حيث ساعدت",
 			title: "فعاليات ساعدت فيها",
 			lead: "نظرة على الفعاليات التي ساعدت فيها خلف الكواليس، وترجمت خلالها، وربطت بين الأشخاص، وحرصت على أن تجد الكلمات المناسبة مكانها.",
