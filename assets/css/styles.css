@@ -39,6 +39,12 @@ body.menu-open {
 	background: #ffffff;
 }
 
+body.page-home,
+.page-home .page-shell,
+.page-home main {
+	background: #000000;
+}
+
 a {
 	color: inherit;
 	text-decoration: none;
@@ -736,6 +742,10 @@ main {
 }
 
 @media (max-width: 580px) {
+	.page-home .site-footer {
+		margin-top: 24px;
+	}
+
 	.cookie-trigger {
 		left: 16px;
 		bottom: 16px;
