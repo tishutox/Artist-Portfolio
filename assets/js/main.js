@@ -10,7 +10,7 @@ const translations = {
 			language: "SPRACHE"
 		},
 		hero: {
-			motto: "WILLKOMMEN",
+			motto: "WILLKOM-\nMEN",
 			title: "ENTER THE FIGHT WITH PRECISION AND PRESENCE",
 			copy: "Gaming, Anime, Horror und Fantasy mit einer Prise Competitive Chaos und einer Person, die nicht immer so tut, als hätte sie einen Plan.",
 			cta: "MEHR ENTDECKEN"
@@ -141,7 +141,7 @@ const translations = {
 			language: "LANGUAGE"
 		},
 		hero: {
-			motto: "WELCOME",
+			motto: "WEL-\nCOME",
 			title: "ENTER THE FIGHT WITH PRECISION AND PRESENCE",
 			copy: "Competitive focus, a clear identity, and a stage for a team that does not need to shout to stand out.",
 			cta: "DISCOVER MORE"
