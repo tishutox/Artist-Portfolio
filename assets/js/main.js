@@ -10,7 +10,8 @@ const translations = {
 			language: "SPRACHE"
 		},
 		hero: {
-			motto: "WILLKOM-\nMEN",
+			motto: "WILLKOMMEN",
+			mottoMobile: "WILLKOM-\nMEN",
 			title: "ENTER THE FIGHT WITH PRECISION AND PRESENCE",
 			copy: "Gaming, Anime, Horror und Fantasy mit einer Prise Competitive Chaos und einer Person, die nicht immer so tut, als hätte sie einen Plan.",
 			cta: "MEHR ENTDECKEN"
@@ -144,7 +145,8 @@ const translations = {
 			language: "LANGUAGE"
 		},
 		hero: {
-			motto: "WEL-\nCOME",
+			motto: "WELCOME",
+			mottoMobile: "WEL-\nCOME",
 			title: "ENTER THE FIGHT WITH PRECISION AND PRESENCE",
 			copy: "Competitive focus, a clear identity, and a stage for a team that does not need to shout to stand out.",
 			cta: "DISCOVER MORE"
@@ -278,7 +280,8 @@ const translations = {
 			language: "IDIOMA"
 		},
 		hero: {
-			motto: "BIEN-\nVENIDO",
+			motto: "BIENVENIDO",
+			mottoMobile: "BIEN-\nVENIDO",
 			title: "ENTRA EN LA PELEA CON PRECISIÓN Y PRESENCIA",
 			copy: "Competición, estilo y una identidad clara para una marca que no necesita gritar para destacar.",
 			cta: "DESCUBRIR MÁS"
@@ -412,7 +415,8 @@ const translations = {
 			language: "IDIOMA"
 		},
 		hero: {
-			motto: "BEM-\nVINDO",
+			motto: "BEM-VINDO",
+			mottoMobile: "BEM-\nVINDO",
 			title: "ENTRE NA BATALHA COM PRECISÃO E PRESENÇA",
 			copy: "Foco competitivo, identidade clara e um palco para uma marca que não precisa gritar para se destacar.",
 			cta: "DESCUBRA MAIS"
@@ -546,7 +550,8 @@ const translations = {
 			language: "LANGUE"
 		},
 		hero: {
-			motto: "BIEN-\nVENUE",
+			motto: "BIENVENUE",
+			mottoMobile: "BIEN-\nVENUE",
 			title: "ENTRE DANS LE COMBAT AVEC PRÉCISION ET PRÉSENCE",
 			copy: "Un focus compétitif, une identité claire et un espace pour une marque qui n’a pas besoin de crier pour se faire remarquer.",
 			cta: "DÉCOUVRIR"
@@ -680,7 +685,9 @@ const translations = {
 			language: "ЯЗЫК"
 		},
 		hero: {
-			motto: "ДОБРО-\nПОЖАЛОВАТЬ",
+			motto: "ДОБРО ПОЖАЛОВАТЬ",
+			mottoMobile: "ДОБРО-\nПОЖАЛОВАТЬ",
+			mottoMobileNarrow: "ДОБРО-\nПОЖА-\nЛОВАТЬ",
 			title: "ВСТУПАЙ В БОЙ С ТОЧНОСТЬЮ И ПРИСУТСТВИЕМ",
 			copy: "Конкурентный фокус, чёткая идентичность и сцена для бренда, которому не нужно кричать, чтобы выделяться.",
 			cta: "УЗНАТЬ БОЛЬШЕ"
@@ -814,7 +821,7 @@ const translations = {
 			language: "اللغة"
 		},
 		hero: {
-			motto: "مر-\nحبًا",
+			motto: "مرحبًا",
 			title: "ادخل المعركة بدقة وحضور",
 			copy: "تركيز تنافسي، هوية واضحة، ومساحة علامة لا تحتاج إلى الصراخ لكي تبرز.",
 			cta: "اكتشف المزيد"
@@ -948,6 +955,7 @@ const languageTrigger = document.querySelector("[data-language-trigger]");
 const currentLanguage = document.querySelector("[data-current-language]");
 const languageButtons = document.querySelectorAll("[data-language]");
 const i18nNodes = document.querySelectorAll("[data-i18n]");
+const heroMotto = document.querySelector(".hero-motto");
 const cookieTrigger = document.querySelector("[data-cookie-trigger]");
 const cookieModal = document.querySelector("[data-cookie-modal]");
 const cookieClose = document.querySelector("[data-cookie-close]");
@@ -962,6 +970,22 @@ const languageStorageKey = "tishu-language";
 const storedLanguage = window.localStorage.getItem(languageStorageKey);
 let activeLanguage = translations[storedLanguage] ? storedLanguage : "en";
 
+const updateHeroMotto = (language) => {
+	if (!heroMotto) {
+		return;
+	}
+
+	const heroTranslation = translations[language].hero;
+	const isMobile = window.matchMedia("(max-width: 820px)").matches;
+	const isNarrowRussian = language === "ru" && window.matchMedia("(max-width: 480px)").matches;
+
+	heroMotto.textContent = isNarrowRussian && heroTranslation.mottoMobileNarrow
+		? heroTranslation.mottoMobileNarrow
+		: isMobile && heroTranslation.mottoMobile
+			? heroTranslation.mottoMobile
+			: heroTranslation.motto;
+};
+
 const applyTranslations = (language) => {
 	const dictionary = translations[language];
 
@@ -975,6 +999,7 @@ const applyTranslations = (language) => {
 	});
 
 	currentLanguage.textContent = language.toUpperCase();
+	updateHeroMotto(language);
 
 	languageButtons.forEach((button) => {
 		button.classList.toggle("is-active", button.dataset.language === language);
@@ -984,6 +1009,8 @@ const applyTranslations = (language) => {
 	activeLanguage = language;
 	window.localStorage.setItem(languageStorageKey, language);
 };
+
+window.addEventListener("resize", () => updateHeroMotto(activeLanguage));
 
 const closeLanguageMenu = () => {
 	languageSwitcher.classList.remove("is-open");
