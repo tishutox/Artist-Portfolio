@@ -524,7 +524,7 @@ html[lang] .mobile-language-actions button {
 
 .cookie-modal-notice {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	gap: 14px;
 	margin: 0 0 28px;
 	padding: 18px 20px;
@@ -538,7 +538,6 @@ html[lang] .mobile-language-actions button {
 	flex: 0 0 auto;
 	width: 21px;
 	height: 21px;
-	margin-top: 0.2rem;
 	color: #FFFFFF;
 }
 
@@ -565,6 +564,19 @@ html[lang] .mobile-language-actions button {
 	color: rgba(255, 255, 255, 0.78);
 	font-size: 0.95rem;
 	line-height: 1.6;
+}
+
+.modal-link {
+	color: var(--anime-accent);
+	font-size: 0.95rem;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	transition: color var(--transition);
+}
+
+.modal-link:hover,
+.modal-link:focus-visible {
+	color: #FFFFFF;
 }
 
 .footer-nav {

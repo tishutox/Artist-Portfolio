@@ -23,14 +23,42 @@ const translations = {
 		},
 		cookie: {
 			title: "COOKIE-EINSTELLUNGEN",
-			intro: "Hier findest du Informationen dazu, wie Tishu Cookies und ähnliche Technologien verwendet.",
-			purposeTitle: "WARUM WIR COOKIES VERWENDEN",
-			purpose: "Cookies und lokale Speicherungen helfen dabei, Spracheinstellungen zu speichern und die Website zuverlässig bereitzustellen. Sie ermöglichen keine personalisierte Werbung durch Tishu.",
-			dataTitle: "WELCHE DATEN GESPEICHERT WERDEN",
-			data: "Deine zuletzt ausgewählte Sprache wird lokal in deinem Browser gespeichert. Dadurch bleibt sie beim Aktualisieren und beim späteren Öffnen der Seite erhalten. Diese Einstellung wird nicht an Tishu übertragen.",
+			intro: "Hier erfährst du, wie ich Cookies und ähnliche Technologien verwende.",
+			purposeTitle: "WARUM ICH COOKIES VERWENDE",
+			purpose: "Cookies und lokale Speicherungen helfen mir dabei, Spracheinstellungen zu speichern und die Website zuverlässig bereitzustellen. Ich nutze sie nicht für personalisierte Werbung.",
+			dataTitle: "WELCHE DATEN ICH SPEICHERE",
+			data: "Deine zuletzt ausgewählte Sprache wird lokal in deinem Browser gespeichert. Dadurch bleibt sie beim Aktualisieren und beim späteren Öffnen der Seite erhalten. Diese Einstellung übertrage ich nicht.",
 			controlTitle: "DEINE AUSWAHL",
-			control: "Du kannst gespeicherte Website-Daten jederzeit über die Einstellungen deines Browsers löschen. Wenn du eine andere Sprache auswählst, wird die neue Auswahl automatisch übernommen.",
+			control: "Du kannst gespeicherte Website-Daten jederzeit über die Einstellungen deines Browsers löschen. Wenn du eine andere Sprache auswählst, übernehme ich die neue Auswahl automatisch.",
 			close: "SCHLIESSEN"
+		},
+		contactModal: {
+			title: "KONTAKT",
+			intro: "Hier erreichst du mich am schnellsten, egal ob es um eine Frage, eine Idee oder einfach ein Hallo geht.",
+			emailLabel: "E-MAIL",
+			emailText: "Schreib mir einfach eine Nachricht, ich antworte so schnell wie möglich. Ob Feedback, Kooperationsanfragen oder du einfach quatschen möchtest – ich freue mich über jede Nachricht.",
+			responseTitle: "ANTWORTZEIT",
+			responseText: "Ich versuche, innerhalb weniger Tage zu antworten. Bei viel los kann es auch mal etwas länger dauern, ich melde mich aber garantiert zurück."
+		},
+		legalModal: {
+			title: "RECHTLICHES",
+			intro: "Ein kurzer Überblick zu rechtlichen Hinweisen dieser Seite.",
+			responsibleTitle: "VERANTWORTLICH FÜR DEN INHALT",
+			responsibleText: "Diese Website ist ein privates, nicht-kommerzielles Projekt von Tishu. Bei Fragen oder rechtlichen Anliegen erreichst du mich per E-Mail:",
+			copyrightTitle: "URHEBERRECHTE",
+			copyrightText: "Genannte Spiele-, Marken- und Firmennamen gehören ihren jeweiligen Rechteinhabern. Ich beanspruche keine Rechte an fremden Inhalten und verwende sie ausschließlich zu Informations- und Fanzwecken."
+		},
+		socialsModal: {
+			title: "SOZIALES",
+			intro: "Hier findest du mich auf anderen Plattformen – schau gerne vorbei, folge mir oder sag Hallo im Chat.",
+			instagramLabel: "INSTAGRAM",
+			instagramText: "Einblicke hinter die Kulissen, Ankündigungen und ab und zu ein bisschen Alltag.",
+			twitchLabel: "TWITCH",
+			twitchText: "Hier streame ich Games, Events und alles, was gerade ansteht – schau vorbei und sag Hi im Chat.",
+			instagramSecondaryLabel: "INSTAGRAM (TTV)",
+			instagramSecondaryText: "Mein zweiter Account rund ums Streaming und Behind-the-Scenes.",
+			xLabel: "X",
+			xText: "Kurze Updates, Gedanken und alles, was gerade passiert."
 		},
 		about: {
 			breadcrumbHome: "START",
@@ -158,14 +186,42 @@ const translations = {
 		},
 		cookie: {
 			title: "COOKIE SETTINGS",
-			intro: "Here you can find information about how Tishu uses cookies and similar technologies.",
-			purposeTitle: "WHY WE USE COOKIES",
-			purpose: "Cookies and local storage help remember your language preference and keep the website working reliably. Tishu does not use them for personalized advertising.",
-			dataTitle: "WHAT DATA IS STORED",
-			data: "Your last selected language is stored locally in your browser. This keeps it selected when you refresh or return to the page later. This setting is not sent to Tishu.",
+			intro: "Here you can find information about how I use cookies and similar technologies.",
+			purposeTitle: "WHY I USE COOKIES",
+			purpose: "Cookies and local storage help me remember your language preference and keep the website working reliably. I do not use them for personalized advertising.",
+			dataTitle: "WHAT DATA I STORE",
+			data: "Your last selected language is stored locally in your browser. This keeps it selected when you refresh or return to the page later. I do not send this setting anywhere.",
 			controlTitle: "YOUR CHOICE",
-			control: "You can delete stored website data at any time through your browser settings. When you choose another language, your new preference is applied automatically.",
+			control: "You can delete stored website data at any time through your browser settings. When you choose another language, I apply your new preference automatically.",
 			close: "CLOSE"
+		},
+		contactModal: {
+			title: "CONTACT",
+			intro: "Here's the fastest way to reach me, whether it's a question, an idea, or just a hello.",
+			emailLabel: "EMAIL",
+			emailText: "Just send me a message, I will reply as soon as I can. Whether it's feedback, collaboration requests, or you simply want to chat, I'm happy to hear from you.",
+			responseTitle: "RESPONSE TIME",
+			responseText: "I try to reply within a few days. If things are busy it might take a little longer, but I will always get back to you."
+		},
+		legalModal: {
+			title: "LEGAL",
+			intro: "A short overview of the legal notices for this site.",
+			responsibleTitle: "RESPONSIBLE FOR THE CONTENT",
+			responsibleText: "This website is a private, non-commercial project by Tishu. For any questions or legal concerns, you can reach me by email:",
+			copyrightTitle: "COPYRIGHT",
+			copyrightText: "All mentioned game, brand, and company names belong to their respective rights holders. I do not claim any rights over third-party content and use it strictly for informational and fan purposes."
+		},
+		socialsModal: {
+			title: "SOCIALS",
+			intro: "Here's where you can find me on other platforms, feel free to stop by, follow along, or say hi in chat.",
+			instagramLabel: "INSTAGRAM",
+			instagramText: "Behind-the-scenes glimpses, announcements, and a bit of everyday life.",
+			twitchLabel: "TWITCH",
+			twitchText: "This is where I stream games, events, and whatever's going on, drop by and say hi in chat.",
+			instagramSecondaryLabel: "INSTAGRAM (TTV)",
+			instagramSecondaryText: "My second account, all about streaming and behind-the-scenes.",
+			xLabel: "X",
+			xText: "Short updates, thoughts, and whatever's happening right now."
 		},
 		about: {
 			breadcrumbHome: "HOME",
@@ -293,14 +349,42 @@ const translations = {
 		},
 		cookie: {
 			title: "CONFIGURACIÓN DE COOKIES",
-			intro: "Aquí encontrarás información sobre cómo Tishu usa cookies y tecnologías similares.",
-			purposeTitle: "¿POR QUÉ USAMOS COOKIES?",
-			purpose: "Las cookies y el almacenamiento local ayudan a recordar tu preferencia de idioma y a mantener el sitio funcionando correctamente. Tishu no las usa para publicidad personalizada.",
-			dataTitle: "¿QUÉ DATOS SE GUARDAN?",
-			data: "Tu último idioma seleccionado se guarda localmente en tu navegador. Así permanece activo al recargar o volver más tarde. Esta configuración no se envía a Tishu.",
+			intro: "Aquí encontrarás información sobre cómo uso las cookies y tecnologías similares.",
+			purposeTitle: "¿POR QUÉ USO COOKIES?",
+			purpose: "Las cookies y el almacenamiento local me ayudan a recordar tu preferencia de idioma y a mantener el sitio funcionando correctamente. No las uso para publicidad personalizada.",
+			dataTitle: "¿QUÉ DATOS GUARDO?",
+			data: "Tu último idioma seleccionado se guarda localmente en tu navegador. Así permanece activo al recargar o volver más tarde. No envío esta configuración a ningún lado.",
 			controlTitle: "TU ELECCIÓN",
-			control: "Puedes borrar los datos almacenados del sitio en cualquier momento desde la configuración de tu navegador. Si eliges otro idioma, la nueva preferencia se aplica automáticamente.",
+			control: "Puedes borrar los datos almacenados del sitio en cualquier momento desde la configuración de tu navegador. Si eliges otro idioma, aplico la nueva preferencia automáticamente.",
 			close: "CERRAR"
+		},
+		contactModal: {
+			title: "CONTACTO",
+			intro: "Esta es la forma más rápida de contactarme, ya sea por una pregunta, una idea o simplemente para saludar.",
+			emailLabel: "CORREO ELECTRÓNICO",
+			emailText: "Solo envíame un mensaje, te responderé lo antes posible. Ya sea feedback, propuestas de colaboración o simplemente para charlar, me alegra recibir tu mensaje.",
+			responseTitle: "TIEMPO DE RESPUESTA",
+			responseText: "Intento responder en pocos días. Si hay mucho movimiento puede tardar un poco más, pero siempre te responderé."
+		},
+		legalModal: {
+			title: "LEGAL",
+			intro: "Un breve resumen de los avisos legales de este sitio.",
+			responsibleTitle: "RESPONSABLE DEL CONTENIDO",
+			responsibleText: "Este sitio web es un proyecto privado y sin fines comerciales de Tishu. Para cualquier duda o asunto legal, puedes escribirme a:",
+			copyrightTitle: "DERECHOS DE AUTOR",
+			copyrightText: "Todos los nombres de juegos, marcas y empresas mencionados pertenecen a sus respectivos titulares. No reclamo ningún derecho sobre contenido de terceros y lo uso únicamente con fines informativos y de fan."
+		},
+		socialsModal: {
+			title: "REDES",
+			intro: "Aquí puedes encontrarme en otras plataformas, pásate cuando quieras, sígueme o saluda en el chat.",
+			instagramLabel: "INSTAGRAM",
+			instagramText: "Vistazos detrás de cámaras, anuncios y algo de vida cotidiana de vez en cuando.",
+			twitchLabel: "TWITCH",
+			twitchText: "Aquí transmito juegos, eventos y lo que vaya surgiendo, pásate y saluda en el chat.",
+			instagramSecondaryLabel: "INSTAGRAM (TTV)",
+			instagramSecondaryText: "Mi segunda cuenta, dedicada al streaming y a lo que pasa detrás de cámaras.",
+			xLabel: "X",
+			xText: "Actualizaciones cortas, pensamientos y lo que esté pasando en el momento."
 		},
 		about: {
 			breadcrumbHome: "INICIO",
@@ -428,14 +512,42 @@ const translations = {
 		},
 		cookie: {
 			title: "CONFIGURAÇÕES DE COOKIES",
-			intro: "Aqui você encontra informações sobre como a Tishu usa cookies e tecnologias semelhantes.",
-			purposeTitle: "POR QUE USAMOS COOKIES",
-			purpose: "Cookies e armazenamento local ajudam a lembrar sua preferência de idioma e manter o site funcionando corretamente. A Tishu não os usa para publicidade personalizada.",
-			dataTitle: "QUAIS DADOS SÃO ARMAZENADOS",
-			data: "Seu último idioma selecionado é armazenado localmente no seu navegador. Isso mantém a seleção ao recarregar ou voltar depois. Essa configuração não é enviada para a Tishu.",
+			intro: "Aqui você encontra informações sobre como eu uso cookies e tecnologias semelhantes.",
+			purposeTitle: "POR QUE EU USO COOKIES",
+			purpose: "Cookies e armazenamento local me ajudam a lembrar sua preferência de idioma e manter o site funcionando corretamente. Não uso isso para publicidade personalizada.",
+			dataTitle: "QUAIS DADOS EU ARMAZENO",
+			data: "Seu último idioma selecionado é armazenado localmente no seu navegador. Isso mantém a seleção ao recarregar ou voltar depois. Não envio essa configuração para lugar nenhum.",
 			controlTitle: "SUA ESCOLHA",
-			control: "Você pode apagar os dados do site a qualquer momento nas configurações do navegador. Quando você escolher outro idioma, a nova preferência é aplicada automaticamente.",
+			control: "Você pode apagar os dados do site a qualquer momento nas configurações do navegador. Quando você escolher outro idioma, aplico a nova preferência automaticamente.",
 			close: "FECHAR"
+		},
+		contactModal: {
+			title: "CONTATO",
+			intro: "Esta é a forma mais rápida de falar comigo, seja para uma pergunta, uma ideia ou só para dizer oi.",
+			emailLabel: "E-MAIL",
+			emailText: "Basta me enviar uma mensagem, responderei o mais rápido possível. Seja feedback, propostas de colaboração ou só para bater um papo, fico feliz em ouvir de você.",
+			responseTitle: "TEMPO DE RESPOSTA",
+			responseText: "Tento responder em poucos dias. Se estiver muito corrido pode demorar um pouco mais, mas eu sempre respondo."
+		},
+		legalModal: {
+			title: "LEGAL",
+			intro: "Um breve resumo dos avisos legais deste site.",
+			responsibleTitle: "RESPONSÁVEL PELO CONTEÚDO",
+			responsibleText: "Este site é um projeto privado e sem fins comerciais da Tishu. Para dúvidas ou questões legais, você pode me contatar por e-mail:",
+			copyrightTitle: "DIREITOS AUTORAIS",
+			copyrightText: "Todos os nomes de jogos, marcas e empresas mencionados pertencem aos seus respectivos titulares. Não reivindico nenhum direito sobre conteúdo de terceiros e o uso apenas para fins informativos e de fã."
+		},
+		socialsModal: {
+			title: "REDES",
+			intro: "Aqui você pode me encontrar em outras plataformas, passe quando quiser, me siga ou diga oi no chat.",
+			instagramLabel: "INSTAGRAM",
+			instagramText: "Bastidores, anúncios e um pouco do dia a dia de vez em quando.",
+			twitchLabel: "TWITCH",
+			twitchText: "Aqui eu transmito jogos, eventos e o que estiver rolando, passe por lá e diga oi no chat.",
+			instagramSecondaryLabel: "INSTAGRAM (TTV)",
+			instagramSecondaryText: "Minha segunda conta, focada em streaming e bastidores.",
+			xLabel: "X",
+			xText: "Atualizações curtas, pensamentos e o que estiver acontecendo no momento."
 		},
 		about: {
 			breadcrumbHome: "INÍCIO",
@@ -563,14 +675,42 @@ const translations = {
 		},
 		cookie: {
 			title: "PARAMÈTRES DES COOKIES",
-			intro: "Tu trouveras ici des informations sur l’utilisation des cookies et autres technologies similaires par Tishu.",
-			purposeTitle: "POURQUOI NOUS UTILISONS DES COOKIES",
-			purpose: "Les cookies et le stockage local aident à mémoriser votre langue préférée et à maintenir le site fiable. Tishu ne les utilise pas pour la publicité personnalisée.",
-			dataTitle: "QUELLES DONNÉES SONT ENREGISTRÉES",
-			data: "La dernière langue sélectionnée est enregistrée localement dans votre navigateur. Cela la garde active lorsque vous rechargez la page ou revenez plus tard. Ce réglage n’est pas envoyé à Tishu.",
-			controlTitle: "VOTRE CHOIX",
-			control: "Vous pouvez supprimer les données du site à tout moment dans les paramètres de votre navigateur. Si vous choisissez une autre langue, le nouveau réglage s’applique automatiquement.",
+			intro: "Tu trouveras ici des informations sur la façon dont j’utilise les cookies et autres technologies similaires.",
+			purposeTitle: "POURQUOI J’UTILISE DES COOKIES",
+			purpose: "Les cookies et le stockage local m’aident à mémoriser ta langue préférée et à maintenir le site fiable. Je ne les utilise pas pour la publicité personnalisée.",
+			dataTitle: "QUELLES DONNÉES J’ENREGISTRE",
+			data: "La dernière langue sélectionnée est enregistrée localement dans ton navigateur. Cela la garde active lorsque tu recharges la page ou reviens plus tard. Je n’envoie ce réglage nulle part.",
+			controlTitle: "TON CHOIX",
+			control: "Tu peux supprimer les données du site à tout moment dans les paramètres de ton navigateur. Si tu choisis une autre langue, j’applique automatiquement la nouvelle préférence.",
 			close: "FERMER"
+		},
+		contactModal: {
+			title: "CONTACT",
+			intro: "Voici le moyen le plus rapide de me joindre, que ce soit pour une question, une idée ou juste pour dire bonjour.",
+			emailLabel: "E-MAIL",
+			emailText: "Envoie-moi simplement un message, je répondrai dès que possible. Que ce soit pour un retour, une proposition de collaboration ou juste pour discuter, je suis toujours content de te lire.",
+			responseTitle: "DÉLAI DE RÉPONSE",
+			responseText: "J’essaie de répondre en quelques jours. En cas de forte activité, cela peut prendre un peu plus longtemps, mais je réponds toujours."
+		},
+		legalModal: {
+			title: "MENTIONS LÉGALES",
+			intro: "Un bref aperçu des mentions légales de ce site.",
+			responsibleTitle: "RESPONSABLE DU CONTENU",
+			responsibleText: "Ce site est un projet privé et non commercial de Tishu. Pour toute question ou demande légale, tu peux me contacter par e-mail :",
+			copyrightTitle: "DROITS D’AUTEUR",
+			copyrightText: "Tous les noms de jeux, marques et entreprises mentionnés appartiennent à leurs détenteurs respectifs. Je ne revendique aucun droit sur le contenu de tiers et je l’utilise uniquement à des fins informatives et de fan."
+		},
+		socialsModal: {
+			title: "RÉSEAUX",
+			intro: "Voici où tu peux me retrouver sur d’autres plateformes, passe quand tu veux, suis-moi ou dis bonjour dans le chat.",
+			instagramLabel: "INSTAGRAM",
+			instagramText: "Des coulisses, des annonces et un peu de quotidien de temps en temps.",
+			twitchLabel: "TWITCH",
+			twitchText: "C’est ici que je stream des jeux, des événements et tout ce qui se passe, passe faire un tour et dis bonjour dans le chat.",
+			instagramSecondaryLabel: "INSTAGRAM (TTV)",
+			instagramSecondaryText: "Mon deuxième compte, dédié au streaming et aux coulisses.",
+			xLabel: "X",
+			xText: "De courtes mises à jour, des pensées et ce qui se passe en ce moment."
 		},
 		about: {
 			breadcrumbHome: "ACCUEIL",
@@ -699,14 +839,42 @@ const translations = {
 		},
 		cookie: {
 			title: "НАСТРОЙКИ COOKIES",
-			intro: "Здесь вы сможете узнать, как Tishu использует cookies и похожие технологии.",
-			purposeTitle: "ЗАЧЕМ МЫ ИСПОЛЬЗУЕМ COOKIES",
-			purpose: "Cookies и локальное хранилище помогают запоминать предпочтения языка и обеспечивать корректную работу сайта. Tishu не использует их для персонализированной рекламы.",
-			dataTitle: "КАКИЕ ДАННЫЕ СОХРАНЯЮТСЯ",
-			data: "Ваш последний выбранный язык сохраняется локально в браузере. Это позволяет оставить его активным после обновления страницы или повторного захода. Эти данные не передаются Tishu.",
+			intro: "Здесь вы узнаете, как я использую cookies и похожие технологии.",
+			purposeTitle: "ЗАЧЕМ Я ИСПОЛЬЗУЮ COOKIES",
+			purpose: "Cookies и локальное хранилище помогают мне запоминать предпочтения языка и обеспечивать корректную работу сайта. Я не использую их для персонализированной рекламы.",
+			dataTitle: "КАКИЕ ДАННЫЕ Я СОХРАНЯЮ",
+			data: "Ваш последний выбранный язык сохраняется локально в браузере. Это позволяет оставить его активным после обновления страницы или повторного захода. Я не передаю эти данные никуда.",
 			controlTitle: "ВАШ ВЫБОР",
-			control: "Вы можете удалить сохранённые данные сайта в любой момент через настройки браузера. При выборе другого языка новая настройка применяется автоматически.",
+			control: "Вы можете удалить сохранённые данные сайта в любой момент через настройки браузера. При выборе другого языка я автоматически применяю новую настройку.",
 			close: "ЗАКРЫТЬ"
+		},
+		contactModal: {
+			title: "КОНТАКТ",
+			intro: "Вот самый быстрый способ связаться со мной — будь то вопрос, идея или просто привет.",
+			emailLabel: "ПОЧТА",
+			emailText: "Просто напиши мне сообщение, я отвечу как можно скорее. Будь то отзыв, предложение о сотрудничестве или просто желание пообщаться — я всегда рад твоему сообщению.",
+			responseTitle: "ВРЕМЯ ОТВЕТА",
+			responseText: "Я стараюсь отвечать в течение нескольких дней. Если дел много, это может занять чуть больше времени, но я обязательно отвечу."
+		},
+		legalModal: {
+			title: "ЮРИДИЧЕСКОЕ",
+			intro: "Краткий обзор юридической информации этого сайта.",
+			responsibleTitle: "ОТВЕТСТВЕННЫЙ ЗА СОДЕРЖИМОЕ",
+			responsibleText: "Этот сайт — личный некоммерческий проект Tishu. По любым вопросам или юридическим вопросам вы можете написать мне на почту:",
+			copyrightTitle: "АВТОРСКИЕ ПРАВА",
+			copyrightText: "Все упомянутые названия игр, брендов и компаний принадлежат их соответствующим правообладателям. Я не претендую на какие-либо права на сторонний контент и использую его исключительно в информационных и фанатских целях."
+		},
+		socialsModal: {
+			title: "СОЦСЕТИ",
+			intro: "Здесь вы можете найти меня на других платформах — заходите, подписывайтесь или поздоровайтесь в чате.",
+			instagramLabel: "INSTAGRAM",
+			instagramText: "Закулисные моменты, анонсы и немного повседневной жизни.",
+			twitchLabel: "TWITCH",
+			twitchText: "Здесь я стримлю игры, события и всё, что происходит — заходите и поздоровайтесь в чате.",
+			instagramSecondaryLabel: "INSTAGRAM (TTV)",
+			instagramSecondaryText: "Мой второй аккаунт, посвящённый стримам и закулисью.",
+			xLabel: "X",
+			xText: "Короткие обновления, мысли и всё, что происходит прямо сейчас."
 		},
 		about: {
 			breadcrumbHome: "ГЛАВНАЯ",
@@ -833,14 +1001,42 @@ const translations = {
 		},
 		cookie: {
 			title: "إعدادات الكوكيز",
-			intro: "هنا يمكنك العثور على معلومات حول كيفية استخدام Tishu للكوكيز والتقنيات المشابهة.",
-			purposeTitle: "لماذا نستخدم الكوكيز",
-			purpose: "تساعد الكوكيز والتخزين المحلي في حفظ تفضيل لغتك والحفاظ على عمل الموقع بشكل موثوق. لا تستخدم Tishu هذه البيانات للإعلانات المخصصة.",
-			dataTitle: "ما البيانات التي يتم حفظها",
-			data: "يتم حفظ آخر لغة محددة محليًا داخل متصفحك. وهذا يجعلها فعالة عند التحديث أو العودة لاحقًا. هذه الإعدادات لا تُرسل إلى Tishu.",
+			intro: "هنا يمكنك معرفة كيف أستخدم الكوكيز والتقنيات المشابهة.",
+			purposeTitle: "لماذا أستخدم الكوكيز",
+			purpose: "تساعدني الكوكيز والتخزين المحلي في حفظ تفضيل لغتك والحفاظ على عمل الموقع بشكل موثوق. لا أستخدمها للإعلانات المخصصة.",
+			dataTitle: "ما البيانات التي أحفظها",
+			data: "يتم حفظ آخر لغة محددة محليًا داخل متصفحك. وهذا يجعلها فعالة عند التحديث أو العودة لاحقًا. لا أرسل هذه الإعدادات إلى أي مكان.",
 			controlTitle: "اختيارك",
-			control: "يمكنك حذف بيانات الموقع المخزنة في أي وقت من إعدادات متصفحك. عند اختيار لغة أخرى، يتم تطبيق الاختيار الجديد تلقائيًا.",
+			control: "يمكنك حذف بيانات الموقع المخزنة في أي وقت من إعدادات متصفحك. عند اختيار لغة أخرى، أطبّق الاختيار الجديد تلقائيًا.",
 			close: "إغلاق"
+		},
+		contactModal: {
+			title: "التواصل",
+			intro: "هذه أسرع طريقة للتواصل معي، سواء كان سؤالًا أو فكرة أو مجرد تحية.",
+			emailLabel: "البريد الإلكتروني",
+			emailText: "فقط أرسل لي رسالة، وسأرد في أقرب وقت ممكن. سواء كانت ملاحظات أو طلبات تعاون أو مجرد رغبة في الدردشة، يسعدني تلقي رسالتك.",
+			responseTitle: "وقت الرد",
+			responseText: "أحاول الرد خلال أيام قليلة. في حال الانشغال قد يستغرق الأمر وقتًا أطول قليلًا، لكنني سأرد عليك بالتأكيد."
+		},
+		legalModal: {
+			title: "قانوني",
+			intro: "نظرة سريعة على الإشعارات القانونية لهذا الموقع.",
+			responsibleTitle: "المسؤول عن المحتوى",
+			responsibleText: "هذا الموقع مشروع خاص وغير تجاري من Tishu. لأي أسئلة أو استفسارات قانونية، يمكنك التواصل معي عبر البريد الإلكتروني:",
+			copyrightTitle: "حقوق النشر",
+			copyrightText: "جميع أسماء الألعاب والعلامات التجارية والشركات المذكورة تعود لأصحابها. لا أطالب بأي حقوق على محتوى الطرف الثالث وأستخدمه فقط لأغراض إعلامية ولأغراض المعجبين."
+		},
+		socialsModal: {
+			title: "وسائل التواصل",
+			intro: "هنا يمكنك أن تجدني على منصات أخرى، تفضل بزيارتها، تابعني أو قل مرحبًا في الدردشة.",
+			instagramLabel: "INSTAGRAM",
+			instagramText: "لمحات من الكواليس وإعلانات وقليل من الحياة اليومية بين الحين والآخر.",
+			twitchLabel: "TWITCH",
+			twitchText: "هنا أقوم ببث الألعاب والفعاليات وكل ما يحدث، تفضل بالزيارة وقل مرحبًا في الدردشة.",
+			instagramSecondaryLabel: "إنستغرام (TTV)",
+			instagramSecondaryText: "حسابي الثاني المخصص للبث المباشر وخلف الكواليس.",
+			xLabel: "X",
+			xText: "تحديثات قصيرة وأفكار وكل ما يحدث في الوقت الحالي."
 		},
 		about: {
 			breadcrumbHome: "الرئيسية",
@@ -959,6 +1155,15 @@ const heroMotto = document.querySelector(".hero-motto");
 const cookieTrigger = document.querySelector("[data-cookie-trigger]");
 const cookieModal = document.querySelector("[data-cookie-modal]");
 const cookieClose = document.querySelector("[data-cookie-close]");
+const contactTriggers = document.querySelectorAll("[data-contact-trigger]");
+const contactModal = document.querySelector("[data-contact-modal]");
+const contactClose = document.querySelector("[data-contact-close]");
+const legalTriggers = document.querySelectorAll("[data-legal-trigger]");
+const legalModal = document.querySelector("[data-legal-modal]");
+const legalClose = document.querySelector("[data-legal-close]");
+const socialsTriggers = document.querySelectorAll("[data-socials-trigger]");
+const socialsModal = document.querySelector("[data-socials-modal]");
+const socialsClose = document.querySelector("[data-socials-close]");
 const imageTriggers = document.querySelectorAll("[data-image-trigger]");
 const imageModal = document.querySelector("[data-image-modal]");
 const imagePreview = document.querySelector("[data-image-preview]");
@@ -1029,6 +1234,45 @@ const setCookieModalState = (isOpen) => {
 		cookieClose.focus();
 	}
 };
+
+const setSimpleModalState = (modal, closeButton, isOpen) => {
+	if (!modal) {
+		return;
+	}
+
+	modal.classList.toggle("is-open", isOpen);
+	modal.setAttribute("aria-hidden", String(!isOpen));
+	if (isOpen && closeButton) {
+		closeButton.focus();
+	}
+};
+
+const bindSimpleModal = (triggers, modal, closeButton) => {
+	if (!modal) {
+		return;
+	}
+
+	triggers.forEach((trigger) => {
+		trigger.addEventListener("click", (event) => {
+			event.preventDefault();
+			setSimpleModalState(modal, closeButton, true);
+		});
+	});
+
+	if (closeButton) {
+		closeButton.addEventListener("click", () => setSimpleModalState(modal, closeButton, false));
+	}
+
+	modal.addEventListener("click", (event) => {
+		if (event.target === modal) {
+			setSimpleModalState(modal, closeButton, false);
+		}
+	});
+};
+
+bindSimpleModal(contactTriggers, contactModal, contactClose);
+bindSimpleModal(legalTriggers, legalModal, legalClose);
+bindSimpleModal(socialsTriggers, socialsModal, socialsClose);
 
 const setImageModalState = (isOpen, trigger = null) => {
 	if (!imageModal) {
@@ -1103,6 +1347,9 @@ document.addEventListener("keydown", (event) => {
 		setMenuState(false);
 		setCookieModalState(false);
 		setImageModalState(false);
+		setSimpleModalState(contactModal, contactClose, false);
+		setSimpleModalState(legalModal, legalClose, false);
+		setSimpleModalState(socialsModal, socialsClose, false);
 	}
 });
 
