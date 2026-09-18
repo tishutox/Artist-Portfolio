@@ -4,7 +4,7 @@ const translations = {
 			home: "START",
 			about: "ÜBER",
 			events: "EVENTS",
-			friends: "FREUNDE"
+			friends: "FREUND*INNEN"
 		},
 		labels: {
 			language: "SPRACHE"
@@ -65,7 +65,7 @@ const translations = {
 			breadcrumbCurrent: "ÜBER",
 			eyebrow: "WER ICH BIN",
 			title: "ÜBER TISHU",
-			lead: "Ich bin Tishu, Helfer und Übersetzer verschiedener Events auf Kyodo. Schreibt mich gerne an, ich beiße auch nicht!",
+			lead: "Ich bin Tishu und helfe bei verschiedenen Events auf Kyodo. Ich übersetze Texte und unterstütze, wo ich kann. Schreibt mich gerne an, ich beiße auch nicht!",
 			storyTitle: "WAS ICH SO MACHE",
 			storyText: "Ich helfe bei verschiedenen Aktivitäten soweit ich kann, übersetze meistens Aktivitäten, Chatbeschreibungen und Weiteres aus dem Englischen ins Deutsche und bei Bedarf auch gerne in die verkehrte Richtung.",
 			storyText2: "Ich freue mich über kreative Aufgaben, unkomplizierte Zusammenarbeit und die kleine Herausforderung, Texte so zu verändern, dass sie wirklich verständlich und angenehm wirken.",
@@ -86,8 +86,10 @@ const translations = {
 			november: "November 2026",
 			october: "Oktober 2026",
 			profileLink: "Mein Community-Profil",
-			role: "ROLLE",
-			date: "DATUM",
+			role: "ROLLEN",
+			date: "DATEN",
+			translator: "Übersetzer*in",
+			helper: "Helfer*in",
 			eyebrow: "WO ICH GEHOLFEN HABE",
 			title: "GEHOLFENE EVENTS",
 			lead: "Hier findest du Events, bei denen ich hinter den Kulissen geholfen, übersetzt, Menschen verbunden und dafür gesorgt habe, dass die richtigen Worte ihren Platz finden.",
@@ -102,7 +104,12 @@ const translations = {
 			card3Title: "SILVER PALACE",
 			card3Tag1: "HORROR",
 			card3Tag2: "STORY",
-			card3Tag3: "SINGLEPLAYER"
+			card3Tag3: "SINGLEPLAYER",
+			placeholder1: "Platzhalter 1",
+			placeholder2: "Platzhalter 2",
+			placeholder3: "Platzhalter 3",
+			placeholder4: "Platzhalter 4",
+			tagLess: "Weniger"
 		},
 		ggst: {
 			breadcrumbGames: "GAMES",
@@ -249,8 +256,10 @@ const translations = {
 			november: "November 2026",
 			october: "October 2026",
 			profileLink: "My Community Profile",
-			role: "ROLE",
-			date: "DATE",
+			role: "ROLES",
+			date: "DATES",
+			translator: "Translator",
+			helper: "Helper",
 			eyebrow: "WHERE I HELPED",
 			title: "HELPED EVENTS",
 			lead: "A look back at the events where I helped behind the scenes, translated, connected people, and made sure the right words found their place.",
@@ -265,7 +274,12 @@ const translations = {
 			card3Title: "SILVER PALACE",
 			card3Tag1: "HORROR",
 			card3Tag2: "STORY",
-			card3Tag3: "SINGLEPLAYER"
+			card3Tag3: "SINGLEPLAYER",
+			placeholder1: "Placeholder 1",
+			placeholder2: "Placeholder 2",
+			placeholder3: "Placeholder 3",
+			placeholder4: "Placeholder 4",
+			tagLess: "Less"
 		},
 		ggst: {
 			breadcrumbGames: "GAMES",
@@ -330,7 +344,7 @@ const translations = {
 			home: "INICIO",
 			about: "SOBRE MÍ",
 			events: "EVENTOS",
-			friends: "AMIGOS"
+			friends: "AMIGOS Y AMIGAS"
 		},
 		labels: {
 			language: "IDIOMA"
@@ -391,7 +405,7 @@ const translations = {
 			breadcrumbCurrent: "SOBRE MÍ",
 			eyebrow: "QUIÉN SOY",
 			title: "SOBRE TISHU",
-			lead: "Soy Tishu, ayudante y traductor de varios eventos en Kyodo. Si quieres, escríbeme; no muerdo.",
+			lead: "Soy Tishu y ayudo en varios eventos de Kyodo. También traduzco textos y apoyo en lo que puedo. Si quieres, escríbeme; no muerdo.",
 			storyTitle: "¿QUÉ HAGO?",
 			storyText: "Ayudo en distintas actividades cuando puedo, sobre todo traduciendo eventos, descripciones de chat y otros textos del inglés al alemán, y a veces también al revés.",
 			storyText2: "Disfruto con los trabajos creativos, la colaboración sencilla y el pequeño reto de reescribir textos para que sean claros, naturales y agradables de leer.",
@@ -412,8 +426,10 @@ const translations = {
 			november: "Noviembre de 2026",
 			october: "Octubre de 2026",
 			profileLink: "Mi perfil de la comunidad",
-			role: "ROL",
-			date: "FECHA",
+			role: "ROLES",
+			date: "FECHAS",
+			translator: "Persona traductora",
+			helper: "Persona de apoyo",
 			eyebrow: "DÓNDE AYUDÉ",
 			title: "EVENTOS EN LOS QUE AYUDÉ",
 			lead: "Un vistazo a los eventos en los que ayudé entre bastidores, traduje, conecté a personas y me aseguré de que cada palabra encontrara su lugar.",
@@ -428,7 +444,12 @@ const translations = {
 			card3Title: "SILVER PALACE",
 			card3Tag1: "HORROR",
 			card3Tag2: "HISTORIA",
-			card3Tag3: "UN JUGADOR"
+			card3Tag3: "UN JUGADOR",
+			placeholder1: "Marcador de posición 1",
+			placeholder2: "Marcador de posición 2",
+			placeholder3: "Marcador de posición 3",
+			placeholder4: "Marcador de posición 4",
+			tagLess: "Menos"
 		},
 		ggst: {
 			breadcrumbGames: "JUEGOS",
@@ -493,7 +514,7 @@ const translations = {
 			home: "INÍCIO",
 			about: "SOBRE",
 			events: "EVENTOS",
-			friends: "AMIGOS"
+			friends: "AMIGUES"
 		},
 		labels: {
 			language: "IDIOMA"
@@ -554,7 +575,7 @@ const translations = {
 			breadcrumbCurrent: "SOBRE",
 			eyebrow: "QUEM SOU EU",
 			title: "SOBRE A TISHU",
-			lead: "Sou a Tishu, ajudante e tradutora de vários eventos no Kyodo. Pode me mandar mensagem; não mordo.",
+			lead: "Sou a Tishu e ajudo em vários eventos no Kyodo. Também traduzo textos e apoio no que posso. Pode me mandar mensagem; não mordo.",
 			storyTitle: "O QUE FAÇO",
 			storyText: "Ajudo em diferentes atividades sempre que posso, principalmente traduzindo eventos, descrições de chat e outros textos do inglês para o alemão, e às vezes também no sentido contrário.",
 			storyText2: "Gosto de tarefas criativas, colaboração simples e do pequeno desafio de adaptar textos para que fiquem claros, naturais e agradáveis de ler.",
@@ -575,8 +596,10 @@ const translations = {
 			november: "Novembro de 2026",
 			october: "Outubro de 2026",
 			profileLink: "Meu perfil da comunidade",
-			role: "FUNÇÃO",
-			date: "DATA",
+			role: "FUNÇÕES",
+			date: "DATAS",
+			translator: "Pessoa tradutora",
+			helper: "Pessoa de apoio",
 			eyebrow: "ONDE AJUDEI",
 			title: "EVENTOS EM QUE AJUDEI",
 			lead: "Uma visão dos eventos em que ajudei nos bastidores, traduzi, conectei pessoas e cuidei para que cada palavra encontrasse seu lugar.",
@@ -591,7 +614,12 @@ const translations = {
 			card3Title: "SILVER PALACE",
 			card3Tag1: "HORROR",
 			card3Tag2: "HISTÓRIA",
-			card3Tag3: "UM JOGADOR"
+			card3Tag3: "UM JOGADOR",
+			placeholder1: "Espaço reservado 1",
+			placeholder2: "Espaço reservado 2",
+			placeholder3: "Espaço reservado 3",
+			placeholder4: "Espaço reservado 4",
+			tagLess: "Menos"
 		},
 		ggst: {
 			breadcrumbGames: "JOGOS",
@@ -656,7 +684,7 @@ const translations = {
 			home: "ACCUEIL",
 			about: "À PROPOS",
 			events: "ÉVÉNEMENTS",
-			friends: "AMIS"
+			friends: "AMI·E·S"
 		},
 		labels: {
 			language: "LANGUE"
@@ -717,7 +745,7 @@ const translations = {
 			breadcrumbCurrent: "À PROPOS",
 			eyebrow: "QUI JE SUIS",
 			title: "À PROPOS DE TISHU",
-			lead: "Je suis Tishu, assistant et traducteur pour différents événements sur Kyodo. N’hésite pas à m’écrire : je ne mord pas.",
+			lead: "Je suis Tishu : j’aide lors de différents événements sur Kyodo et je traduis des textes. N’hésite pas à m’écrire : je ne mords pas.",
 			storyTitle: "CE QUE JE FAIS",
 			storyText: "J’aide dans diverses activités autant que je peux, surtout en traduisant des événements, descriptions de chat et autres textes de l’anglais vers l’allemand, et parfois aussi dans l’autre sens.",
 			storyText2: "J’aime les tâches créatives, la collaboration simple et le petit défi de réécrire les textes pour qu’ils restent clairs, naturels et agréables à lire.",
@@ -738,8 +766,10 @@ const translations = {
 			november: "Novembre 2026",
 			october: "Octobre 2026",
 			profileLink: "Mon profil communautaire",
-			role: "RÔLE",
-			date: "DATE",
+			role: "RÔLES",
+			date: "DATES",
+			translator: "Personne traductrice",
+			helper: "Personne aidante",
 			eyebrow: "LÀ OÙ J'AI AIDÉ",
 			title: "ÉVÉNEMENTS AUXQUELS J'AI CONTRIBUÉ",
 			lead: "Un aperçu des événements auxquels j'ai contribué en coulisses, en traduisant, en rapprochant les personnes et en veillant à ce que chaque mot trouve sa place.",
@@ -754,7 +784,12 @@ const translations = {
 			card3Title: "SILVER PALACE",
 			card3Tag1: "HORREUR",
 			card3Tag2: "HISTOIRE",
-			card3Tag3: "SOLO"
+			card3Tag3: "SOLO",
+			placeholder1: "Espace réservé 1",
+			placeholder2: "Espace réservé 2",
+			placeholder3: "Espace réservé 3",
+			placeholder4: "Espace réservé 4",
+			tagLess: "Moins"
 		},
 		ggst: {
 			breadcrumbGames: "JEUX",
@@ -819,7 +854,7 @@ const translations = {
 			home: "ГЛАВНАЯ",
 			about: "ОБО МНЕ",
 			events: "СОБЫТИЯ",
-			friends: "ДРУЗЬЯ"
+			friends: "ДРУЗЬЯ И ПОДРУГИ"
 		},
 		labels: {
 			language: "ЯЗЫК"
@@ -881,7 +916,7 @@ const translations = {
 			breadcrumbCurrent: "ОБО МНЕ",
 			eyebrow: "КТО Я",
 			title: "О TISHU",
-			lead: "Я Tishu, помощник и переводчик на различных событиях Kyodo. Пишите, не стесняйтесь — я не кусаюсь.",
+			lead: "Я Tishu: помогаю на разных событиях Kyodo и перевожу тексты. Пишите, не стесняйтесь — я не кусаюсь.",
 			storyTitle: "ЧЕМ Я ЗАНИМАЮСЬ",
 			storyText: "Я помогаю в разных активностях, где могу, в основном перевожу события, описания чатов и другой текст с английского на немецкий, а иногда и в обратную сторону.",
 			storyText2: "Мне нравятся творческие задачи, простое сотрудничество и маленькая задача — переделывать тексты так, чтобы они звучали естественно и приятно.",
@@ -902,8 +937,10 @@ const translations = {
 			november: "Ноябрь 2026",
 			october: "Октябрь 2026",
 			profileLink: "Мой профиль сообщества",
-			role: "РОЛЬ",
-			date: "ДАТА",
+			role: "РОЛИ",
+			date: "ДАТЫ",
+			translator: "Перевод",
+			helper: "Помощь",
 			eyebrow: "ГДЕ Я ПОМОГАЛ",
 			title: "СОБЫТИЯ, КОТОРЫМ Я ПОМОГАЛ",
 			lead: "Здесь собраны события, в которых я помогал за кулисами, переводил, знакомил людей и следил за тем, чтобы каждое слово нашло своё место.",
@@ -918,7 +955,12 @@ const translations = {
 			card3Title: "SILVER PALACE",
 			card3Tag1: "ХОРРОР",
 			card3Tag2: "ИСТОРИЯ",
-			card3Tag3: "ОДНОКЛАССНИК"
+			card3Tag3: "ОДНОКЛАССНИК",
+			placeholder1: "Заполнитель 1",
+			placeholder2: "Заполнитель 2",
+			placeholder3: "Заполнитель 3",
+			placeholder4: "Заполнитель 4",
+			tagLess: "Меньше"
 		},
 		ggst: {
 			breadcrumbGames: "ИГРЫ",
@@ -983,7 +1025,7 @@ const translations = {
 			home: "الرئيسية",
 			about: "عني",
 			events: "الفعاليات",
-			friends: "الأصدقاء"
+			friends: "الأصدقاء والصديقات"
 		},
 		labels: {
 			language: "اللغة"
@@ -1043,7 +1085,7 @@ const translations = {
 			breadcrumbCurrent: "عني",
 			eyebrow: "من أنا",
 			title: "عن TISHU",
-			lead: "أنا Tishu، مساعد ومترجم لمختلف الفعاليات على Kyodo. تواصل معي بكل سرور، لا أعض.",
+			lead: "أنا Tishu، أساعد في مختلف الفعاليات على Kyodo وأترجم النصوص. تواصل معي بكل سرور، لا أعض.",
 			storyTitle: "ماذا أفعل",
 			storyText: "أساعد في أنشطة مختلفة قدر الإمكان، وأترجم في الغالب الفعاليات، أوصاف الدردشة وغيرها من النصوص من الإنجليزية إلى الألمانية، وأحيانًا في الاتجاه الآخر أيضًا.",
 			storyText2: "أحب المهام الإبداعية، والتعاون السلس، والتحدي الصغير في إعادة صياغة النصوص بحيث تكون واضحة وطبيعية وممتعة للقراءة.",
@@ -1064,8 +1106,10 @@ const translations = {
 			november: "نوفمبر 2026",
 			october: "أكتوبر 2026",
 			profileLink: "ملفي في المجتمع",
-			role: "الدور",
-			date: "التاريخ",
+			role: "الأدوار",
+			date: "التواريخ",
+			translator: "ترجمة",
+			helper: "مساعدة",
 			eyebrow: "حيث ساعدت",
 			title: "فعاليات ساعدت فيها",
 			lead: "نظرة على الفعاليات التي ساعدت فيها خلف الكواليس، وترجمت خلالها، وربطت بين الأشخاص، وحرصت على أن تجد الكلمات المناسبة مكانها.",
@@ -1080,7 +1124,12 @@ const translations = {
 			card3Title: "SILVER PALACE",
 			card3Tag1: "رعب",
 			card3Tag2: "قصة",
-			card3Tag3: "لعب فردي"
+			card3Tag3: "لعب فردي",
+			placeholder1: "عنصر نائب 1",
+			placeholder2: "عنصر نائب 2",
+			placeholder3: "عنصر نائب 3",
+			placeholder4: "عنصر نائب 4",
+			tagLess: "أقل"
 		},
 		ggst: {
 			breadcrumbGames: "الألعاب",
@@ -1211,6 +1260,12 @@ const applyTranslations = (language) => {
 
 	languageButtons.forEach((button) => {
 		button.classList.toggle("is-active", button.dataset.language === language);
+	});
+
+	tagToggleButtons.forEach((button) => {
+		if (button.getAttribute("aria-expanded") === "true") {
+			button.textContent = dictionary.games.tagLess;
+		}
 	});
 
 	document.documentElement.lang = language;
@@ -1381,12 +1436,13 @@ tagToggleButtons.forEach((button) => {
 		const tags = button.closest(".event-card-tags");
 		const isExpanded = tags.classList.toggle("is-expanded");
 		button.setAttribute("aria-expanded", String(isExpanded));
-		button.textContent = isExpanded ? "Less" : "...";
+		button.textContent = isExpanded ? translations[activeLanguage].games.tagLess : "...";
 		tags.querySelectorAll("[data-extra-tag]").forEach((tag) => {
 			tag.hidden = !isExpanded;
 		});
 	});
 });
+
 
 if (imageModal) {
 	imageClose.addEventListener("click", () => setImageModalState(false));

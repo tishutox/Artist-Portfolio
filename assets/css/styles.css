@@ -548,6 +548,16 @@ html[lang] .mobile-language-actions button {
 	line-height: 1.6;
 }
 
+.cookie-modal-notice div {
+	display: grid;
+	gap: 4px;
+}
+
+.cookie-modal-notice strong {
+	font-size: 0.78rem;
+	letter-spacing: 0.12em;
+}
+
 .cookie-modal-section {
 	padding-top: 22px;
 	border-top: 1px solid var(--line-dark);
@@ -1438,8 +1448,8 @@ body.page-friends {
 .event-card-banner {
 	aspect-ratio: 2560 / 1080;
 	height: auto;
-	width: calc(100% - 24px);
-	margin: 12px 12px 0;
+	width: calc(100% - 12px);
+	margin: 6px 6px 0;
 	overflow: hidden;
 	border-radius: 6px;
 	background: #242424;
@@ -1455,14 +1465,14 @@ body.page-friends {
 .event-card-content {
 	position: relative;
 	width: 100%;
-	padding: 24px clamp(22px, 4vw, 32px) 28px;
+	padding: 20px clamp(22px, 4vw, 32px) 20px;
 }
 
 .event-card-intro {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 18px;
+	gap: 12px;
 	margin-top: 0;
 }
 
@@ -1470,9 +1480,9 @@ body.page-friends {
 	flex: 0 0 108px;
 	width: 108px;
 	height: 108px;
-	margin: -78px 0 0 12px;
+	margin: -78px 0 0 6px;
 	overflow: hidden;
-	border: 8px solid var(--community-bg, #171717);
+	border: 6px solid var(--community-bg, #171717);
 	border-radius: 18px;
 	background: var(--community-bg, #171717);
 }
@@ -1490,7 +1500,7 @@ body.page-friends {
 }
 
 .event-card-heading h3 {
-	margin: 0 0 7px;
+	margin: 0 0 5px;
 	font-family: "Rubik", sans-serif;
 	font-size: clamp(1.2rem, 3vw, 2rem);
 	font-weight: 500;
@@ -1518,10 +1528,11 @@ body.page-friends {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 6px;
-	margin-top: 24px;
+	margin-top: 16px;
 }
 
 .event-card-tags span,
+.event-card-tags a,
 .event-card-tags button {
 	padding: 6px 10px;
 	border: 1px solid rgba(255, 255, 255, 0.34);
@@ -1532,6 +1543,10 @@ body.page-friends {
 	font-weight: 600;
 	letter-spacing: 0.12em;
 	color: rgba(255, 255, 255, 0.88);
+}
+
+.event-card-tags a {
+	text-decoration: none;
 }
 
 .event-card-tags button {
@@ -1548,15 +1563,15 @@ body.page-friends {
 	display: flex;
 	flex-wrap: wrap;
 	display: grid;
-	gap: 16px;
-	margin-top: 28px;
-	padding-top: 18px;
+	gap: 12px;
+	margin-top: 20px;
+	padding-top: 12px;
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .event-card-details div {
 	display: grid;
-	gap: 5px;
+	gap: 3px;
 }
 
 .event-detail-label {
