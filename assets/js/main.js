@@ -60,6 +60,15 @@ const translations = {
 			xLabel: "X",
 			xText: "Kurze Updates, Gedanken und alles, was gerade passiert."
 		},
+		friendsModal: {
+			title: "FREUND*INNEN",
+			introTitle: "MEINE FREUND*INNEN",
+			introText: "Vier Menschen, deren Profile ich gerne mit euch teile.",
+			starText: "Star ist eine nette Person, mit der ich schon öfter zusammengearbeitet habe. Gemeinsam habe ich Eventposts, Chats und weitere Inhalte übersetzt – zuerst auf Amino, heute auf Kyodo.",
+			graveText: "Mit Grave verbindet mich eine langjährige Freundschaft aus der Leader-Amino-Zeit. Durch Grave wurde ich auf Project Z aufmerksam, wo ich kurze Zeit als Volunteer tätig war.",
+			moppieText: "Moppie ist eine gute Freundin, die ihr allererstes Event unter meiner Führung hatte und anschließend als Leaderin in meiner Community geblieben ist.",
+			swissText: "Swiss ist ebenfalls eine gute Freundin und hat unter meiner Leitung beim selben Event wie Moppie mitgeholfen."
+		},
 		about: {
 			breadcrumbHome: "START",
 			breadcrumbCurrent: "ÜBER",
@@ -229,6 +238,15 @@ const translations = {
 			instagramSecondaryText: "My second account, all about streaming and behind-the-scenes.",
 			xLabel: "X",
 			xText: "Short updates, thoughts, and whatever's happening right now."
+		},
+		friendsModal: {
+			title: "FRIENDS",
+			introTitle: "MY FRIENDS",
+			introText: "Four people whose profiles I like to share with you.",
+			starText: "Star is a lovely person I've worked with several times. Together we've translated event posts, chats, and other content — first on Amino, now on Kyodo.",
+			graveText: "Grave and I share a long friendship from the Leader Amino era. Through Grave, I got involved with Project Z, where I briefly worked as a volunteer.",
+			moppieText: "Moppie is a close friend who held her very first event under my guidance and later stayed in my community as a leader.",
+			swissText: "Swiss is also a close friend and helped me during the same event as Moppie."
 		},
 		about: {
 			breadcrumbHome: "HOME",
@@ -400,6 +418,15 @@ const translations = {
 			xLabel: "X",
 			xText: "Actualizaciones cortas, pensamientos y lo que esté pasando en el momento."
 		},
+		friendsModal: {
+			title: "AMIGOS Y AMIGAS",
+			introTitle: "MIS AMIGOS Y AMIGAS",
+			introText: "Cuatro personas cuyos perfiles me gusta compartir contigo.",
+			starText: "Star es una persona muy amable con la que he trabajado varias veces. Juntos hemos traducido publicaciones de eventos, chats y otros contenidos: primero en Amino, ahora en Kyodo.",
+			graveText: "Con Grave me une una amistad muy larga desde la época de Leader Amino. A través de Grave me di cuenta de Project Z, donde trabajé un tiempo como voluntaria.",
+			moppieText: "Moppie es una buena amiga que tuvo su primer evento bajo mi dirección y después siguió en mi comunidad como líder.",
+			swissText: "Swiss también es una buena amiga y ayudó bajo mi dirección en el mismo evento que Moppie."
+		},
 		about: {
 			breadcrumbHome: "INICIO",
 			breadcrumbCurrent: "SOBRE MÍ",
@@ -570,6 +597,15 @@ const translations = {
 			xLabel: "X",
 			xText: "Atualizações curtas, pensamentos e o que estiver acontecendo no momento."
 		},
+		friendsModal: {
+			title: "AMIGUES",
+			introTitle: "MEUS AMIGOS",
+			introText: "Quatro pessoas cujos perfis gosto de compartilhar com você.",
+			starText: "Star é uma pessoa muito simpática com quem já trabalhei várias vezes. Juntos traduzimos postagens de eventos, chats e outros conteúdos — primeiro no Amino, agora no Kyodo.",
+			graveText: "Grave e eu temos uma amizade antiga desde a época do Leader Amino. Foi por meio dele que conheci o Project Z, onde trabalhei por um tempo como voluntária.",
+			moppieText: "Moppie é uma amiga próxima que realizou seu primeiro evento sob minha orientação e depois permaneceu na minha comunidade como líder.",
+			swissText: "Swiss também é uma amiga próxima e me ajudou durante o mesmo evento que a Moppie."
+		},
 		about: {
 			breadcrumbHome: "INÍCIO",
 			breadcrumbCurrent: "SOBRE",
@@ -739,6 +775,15 @@ const translations = {
 			instagramSecondaryText: "Mon deuxième compte, dédié au streaming et aux coulisses.",
 			xLabel: "X",
 			xText: "De courtes mises à jour, des pensées et ce qui se passe en ce moment."
+		},
+		friendsModal: {
+			title: "AMI·E·S",
+			introTitle: "MES AMI·E·S",
+			introText: "Quatre personnes dont je suis ravie de partager les profils avec toi.",
+			starText: "Star est une personne adorable avec qui j’ai souvent collaboré. Ensemble, nous avons traduit des posts d’événements, des chats et d’autres contenus — d’abord sur Amino, puis sur Kyodo.",
+			graveText: "Grave et moi partageons une longue amitié depuis l’époque de Leader Amino. Grâce à Grave, j’ai découvert Project Z, où j’ai brièvement travaillé comme bénévole.",
+			moppieText: "Moppie est une bonne amie qui a organisé son tout premier événement sous ma direction, puis a ensuite continué dans ma communauté en tant que leader.",
+			swissText: "Swiss est aussi une bonne amie et a aidé sous ma direction lors du même événement que Moppie."
 		},
 		about: {
 			breadcrumbHome: "ACCUEIL",
@@ -911,6 +956,15 @@ const translations = {
 			xLabel: "X",
 			xText: "Короткие обновления, мысли и всё, что происходит прямо сейчас."
 		},
+		friendsModal: {
+			title: "ДРУЗЬЯ И ПОДРУГИ",
+			introTitle: "МОИ ДРУЗЬЯ И ПОДРУГИ",
+			introText: "Четыре человека, профили которых я люблю делиться с вами.",
+			starText: "Star — очень добрый человек, с которым я часто работал. Вместе мы переводили посты событий, чаты и другой контент — сначала на Amino, а теперь на Kyodo.",
+			graveText: "Со Grave меня связывает давняя дружба со времен Leader Amino. Благодаря Grave я узнал о Project Z, где недолго работал волонтёром.",
+			moppieText: "Moppie — близкая подруга, которая провела своё первое событие под моим руководством, а потом осталась в моём сообществе в роли лидера.",
+			swissText: "Swiss тоже близкая подруга, и она помогала мне в том же событии, что и Moppie."
+		},
 		about: {
 			breadcrumbHome: "ГЛАВНАЯ",
 			breadcrumbCurrent: "ОБО МНЕ",
@@ -1079,6 +1133,15 @@ const translations = {
 			instagramSecondaryText: "حسابي الثاني المخصص للبث المباشر وخلف الكواليس.",
 			xLabel: "X",
 			xText: "تحديثات قصيرة وأفكار وكل ما يحدث في الوقت الحالي."
+		},
+		friendsModal: {
+			title: "الأصدقاء والصديقات",
+			introTitle: "أصدقائي وصديقاتي",
+			introText: "أربعة أشخاص أقدّر مشاركة ملفاتهم معك.",
+			starText: "Star شخص لطيف جدًا عملت معه عدة مرات. معًا ترجمنا منشورات الفعاليات، والدردشات، والمحتوى الآخر — أولًا على Amino، ثم على Kyodo.",
+			graveText: "أنا وGrave صديقان منذ زمن Leader Amino. من خلال Grave اكتشفت Project Z، حيث عملت لفترة قصيرة كمتطوعة.",
+			moppieText: "Moppie صديقة قريبة، نظّمت أول فعالية لها تحت إرشادي ثم بقيت في مجتمعي كقائدة.",
+			swissText: "Swiss أيضًا صديقة قريبة وساعدتني في نفس الفعالية مثل Moppie."
 		},
 		about: {
 			breadcrumbHome: "الرئيسية",
