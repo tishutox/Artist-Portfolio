@@ -1164,6 +1164,9 @@ const legalClose = document.querySelector("[data-legal-close]");
 const socialsTriggers = document.querySelectorAll("[data-socials-trigger]");
 const socialsModal = document.querySelector("[data-socials-modal]");
 const socialsClose = document.querySelector("[data-socials-close]");
+const friendsTriggers = document.querySelectorAll("[data-friends-trigger]");
+const friendsModal = document.querySelector("[data-friends-modal]");
+const friendsClose = document.querySelector("[data-friends-close]");
 const imageTriggers = document.querySelectorAll("[data-image-trigger]");
 const imageModal = document.querySelector("[data-image-modal]");
 const imagePreview = document.querySelector("[data-image-preview]");
@@ -1273,6 +1276,7 @@ const bindSimpleModal = (triggers, modal, closeButton) => {
 bindSimpleModal(contactTriggers, contactModal, contactClose);
 bindSimpleModal(legalTriggers, legalModal, legalClose);
 bindSimpleModal(socialsTriggers, socialsModal, socialsClose);
+bindSimpleModal(friendsTriggers, friendsModal, friendsClose);
 
 const setImageModalState = (isOpen, trigger = null) => {
 	if (!imageModal) {
@@ -1350,6 +1354,7 @@ document.addEventListener("keydown", (event) => {
 		setSimpleModalState(contactModal, contactClose, false);
 		setSimpleModalState(legalModal, legalClose, false);
 		setSimpleModalState(socialsModal, socialsClose, false);
+		setSimpleModalState(friendsModal, friendsClose, false);
 	}
 });
 
