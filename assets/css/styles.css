@@ -190,7 +190,7 @@ html[lang] .mobile-language-actions button {
 }
 
 .page-shell.menu-open .site-header .brand-mark img {
-	filter: none;
+	filter: brightness(0);
 }
 
 .header-actions {
