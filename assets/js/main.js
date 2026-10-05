@@ -435,6 +435,7 @@ const tagToggleButtons = document.querySelectorAll("[data-tag-toggle]");
 const galleryFilterButtons = document.querySelectorAll("[data-gallery-filter]");
 const galleryItems = document.querySelectorAll("[data-gallery-item]");
 const galleryEmptyState = document.querySelector("[data-gallery-empty]");
+const galleryGrid = document.querySelector(".gallery-grid");
 
 const languageStorageKey = "tishu-language";
 const storedLanguage = window.localStorage.getItem(languageStorageKey);
@@ -644,6 +645,88 @@ imageTriggers.forEach((trigger) => {
 	});
 });
 
+const layoutGalleryRows = () => {
+	if (!galleryGrid) {
+		return;
+	}
+
+	const gridStyles = window.getComputedStyle(galleryGrid);
+	const targetRowHeight = parseFloat(gridStyles.getPropertyValue("--gallery-row-height")) || 320;
+	const gap = parseFloat(gridStyles.columnGap) || 0;
+	const containerWidth = galleryGrid.clientWidth;
+
+	if (!containerWidth) {
+		return;
+	}
+
+	const photos = Array.from(galleryItems)
+		.filter((item) => !item.hidden)
+		.map((item) => {
+			const image = item.querySelector("img");
+			const ratio = image && image.naturalWidth ? image.naturalWidth / image.naturalHeight : 1;
+			return { item, ratio };
+		});
+
+	const rows = [];
+	let currentRow = [];
+	let currentRowRatio = 0;
+
+	photos.forEach((photo) => {
+		currentRow.push(photo);
+		currentRowRatio += photo.ratio;
+		const rowWidthAtTarget = currentRowRatio * targetRowHeight + gap * (currentRow.length - 1);
+		if (rowWidthAtTarget >= containerWidth) {
+			rows.push(currentRow);
+			currentRow = [];
+			currentRowRatio = 0;
+		}
+	});
+
+	if (currentRow.length) {
+		rows.push(currentRow);
+	}
+
+	rows.forEach((rowItems, rowIndex) => {
+		const isLastRow = rowIndex === rows.length - 1;
+		const ratioSum = rowItems.reduce((sum, photo) => sum + photo.ratio, 0);
+		const availableWidth = containerWidth - gap * (rowItems.length - 1);
+		const naturalRowHeight = availableWidth / ratioSum;
+		const fillsRow = !isLastRow || naturalRowHeight <= targetRowHeight;
+		const rowHeight = fillsRow ? naturalRowHeight : targetRowHeight;
+
+		let usedWidth = 0;
+		rowItems.forEach((photo, itemIndex) => {
+			const isLastItem = itemIndex === rowItems.length - 1;
+			let width = rowHeight * photo.ratio;
+			if (fillsRow && isLastItem) {
+				width = Math.max(0, availableWidth - usedWidth);
+			}
+			usedWidth += width;
+			photo.item.style.width = `${width}px`;
+			photo.item.style.height = `${rowHeight}px`;
+		});
+	});
+};
+
+if (galleryGrid) {
+	galleryGrid.querySelectorAll("img").forEach((image) => {
+		if (!image.complete || !image.naturalWidth) {
+			image.addEventListener("load", layoutGalleryRows);
+			image.addEventListener("error", layoutGalleryRows);
+		}
+	});
+
+	let galleryLayoutFrame = null;
+	window.addEventListener("resize", () => {
+		if (galleryLayoutFrame) {
+			window.cancelAnimationFrame(galleryLayoutFrame);
+		}
+		galleryLayoutFrame = window.requestAnimationFrame(layoutGalleryRows);
+	});
+
+	layoutGalleryRows();
+}
+
 tagToggleButtons.forEach((button) => {
 	button.addEventListener("click", () => {
 		const tags = button.closest(".event-card-tags");
@@ -671,6 +754,8 @@ galleryFilterButtons.forEach((button) => {
 		if (galleryEmptyState) {
 			galleryEmptyState.hidden = Array.from(galleryItems).some((item) => !item.hidden);
 		}
+
+		layoutGalleryRows();
 	});
 });
 
