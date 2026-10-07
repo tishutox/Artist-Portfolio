@@ -4,7 +4,7 @@ const translations = {
 			home: "START",
 			about: "ÜBER",
 			events: "EVENTS",
-			gallery: "GALERIE",
+			gallery: "GALLERIE",
 			friends: "FREUND*INNEN"
 		},
 		labels: {
