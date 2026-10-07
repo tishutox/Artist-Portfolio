@@ -4,22 +4,21 @@ const translations = {
 			home: "START",
 			about: "ÜBER",
 			events: "EVENTS",
-			gallery: "GALLERIE",
+			gallery: "GALERIE",
 			friends: "FREUND*INNEN"
 		},
 		labels: {
 			language: "SPRACHE"
 		},
 		hero: {
-			motto: "WILLKOMMEN",
-			mottoMobile: "WILLKOM-\nMEN",
+			motto: "ようこそ",
+			mottoMobile: "ようこそ",
 			title: "ENTER THE FIGHT WITH PRECISION AND PRESENCE",
 			copy: "Gaming, Anime, Horror und Fantasy mit einer Prise Competitive Chaos und einer Person, die nicht immer so tut, als hätte sie einen Plan.",
 			cta: "MEHR ENTDECKEN"
 		},
 		footer: {
 			socials: "SOZIALES",
-			contact: "KONTAKT",
 			legal: "RECHTLICHES"
 		},
 		cookie: {
@@ -71,8 +70,8 @@ const translations = {
 			swissText: "Swiss ist ebenfalls eine gute Freundin und hat unter meiner Leitung beim selben Event wie Moppie mitgeholfen."
 		},
 		gallery: {
-			breadcrumb: "GALLERIE",
-			eyebrow: "MEINE GALLERIE",
+			breadcrumb: "GALERIE",
+			eyebrow: "MEINE GALERIE",
 			title: "TISHUS ARTWORKS",
 			intro: "Ein kleines Archiv aus Illustrationen, Animationen und Momenten rund um Tishu. Hier sammle ich Artworks und visuelle Ideen zu meinem OC – von ruhigen Porträts bis zu lebendigen kleinen Szenen.",
 			filterAll: "ALLE",
@@ -211,15 +210,14 @@ const translations = {
 			language: "LANGUAGE"
 		},
 		hero: {
-			motto: "WELCOME",
-			mottoMobile: "WEL-\nCOME",
+			motto: "ようこそ",
+			mottoMobile: "ようこそ",
 			title: "ENTER THE FIGHT WITH PRECISION AND PRESENCE",
 			copy: "Competitive focus, a clear identity, and a stage for a team that does not need to shout to stand out.",
 			cta: "DISCOVER MORE"
 		},
 		footer: {
 			socials: "SOCIALS",
-			contact: "CONTACT",
 			legal: "LEGAL"
 		},
 		cookie: {
