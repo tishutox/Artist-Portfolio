@@ -485,18 +485,33 @@ html[lang] .mobile-language-actions button {
 }
 
 .cookie-modal-content {
+	--modal-padding-top: 32px;
+	--modal-padding-inline: 36px;
 	width: min(760px, 100%);
 	max-height: min(760px, 100%);
 	overflow-y: auto;
-	padding: 32px 36px 36px;
+	padding: var(--modal-padding-top) var(--modal-padding-inline) 36px;
 	border: 1px solid rgba(20, 20, 20, 0.1);
 	border-radius: 8px;
 	background: #000000;
 	color: var(--text-inverse);
 	font-family: "LINE Seed JP", sans-serif;
-	box-shadow: inset 0 4px 0 0 #FFFFFF, 0 24px 70px rgba(0, 0, 0, 0.28);
+	box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
 	transform: translateY(18px);
 	transition: transform var(--transition);
+}
+
+.cookie-modal-content::before {
+	position: sticky;
+	top: calc(-1 * var(--modal-padding-top));
+	z-index: 1;
+	display: block;
+	height: 4px;
+	margin: calc(-1 * var(--modal-padding-top)) calc(-1 * var(--modal-padding-inline)) calc(var(--modal-padding-top) - 4px);
+	border-radius: var(--radius-large) var(--radius-large) 0 0;
+	background: #FFFFFF;
+	content: "";
+	pointer-events: none;
 }
 
 .cookie-modal.is-open .cookie-modal-content {
@@ -1031,7 +1046,9 @@ body.page-gallery {
 	}
 
 	.cookie-modal-content {
-		padding: 24px 20px 28px;
+		--modal-padding-top: 24px;
+		--modal-padding-inline: 20px;
+		padding: var(--modal-padding-top) var(--modal-padding-inline) 28px;
 	}
 
 	.cookie-modal-notice {
@@ -2248,4 +2265,3 @@ body.page-game-detail {
 .game-info-box {
 	border-radius: var(--radius-large);
 }
-
