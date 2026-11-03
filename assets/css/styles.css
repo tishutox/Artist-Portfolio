@@ -1152,12 +1152,12 @@ body.page-about {
 	text-shadow: 0 0 14px rgba(142, 140, 215, 0.28);
 }
 
-.about-hero h1 {
-	margin: 0;
-	font-family: "LINE Seed JP", sans-serif;
+.page-about .about-hero h1,
+.page-gallery .about-hero h1 {
+	margin: 14px 0 0;
+	font-family: "Great Vibes", cursive;
 	font-size: clamp(2.6rem, 7vw, 5rem);
-	line-height: 1.05;
-	letter-spacing: 0.02em;
+	line-height: 1.15;
 }
 
 .about-lead {
@@ -1334,10 +1334,10 @@ body.page-about {
 }
 
 .about-story-text h2 {
-	margin: 0 0 18px;
-	font-family: "LINE Seed JP", sans-serif;
-	font-size: clamp(1.8rem, 3vw, 2.4rem);
-	letter-spacing: 0.04em;
+	margin: 14px 0 18px;
+	font-family: "Great Vibes", cursive;
+	font-size: clamp(2.6rem, 4vw, 3.4rem);
+	line-height: 1.15;
 }
 
 .about-story-text p {
