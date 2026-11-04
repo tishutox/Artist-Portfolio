@@ -73,7 +73,7 @@
 	--header-height: 82px;
 	--content-width: min(1280px, calc(100vw - 48px));
 	--transition: 220ms cubic-bezier(0.22, 1, 0.36, 1);
-	--hero-image: url("../img/hero-bg.jpg");
+	--hero-image: url("../img/hero-bg.png");
 }
 
 * {
