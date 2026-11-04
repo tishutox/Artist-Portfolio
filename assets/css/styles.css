@@ -1,41 +1,57 @@
-﻿@font-face {
-	font-family: "LINE Seed JP";
-	font-weight: 100;
+@font-face {
+	font-family: "Geist";
+	font-weight: 100 900;
 	font-style: normal;
 	font-display: swap;
-	src: local("LINE Seed JP Thin"),
-		url("https://cdn.jsdelivr.net/npm/line-seed-jp@0.0.5/woff2/LINESeedJP_OTF_Th.woff2") format("woff2"),
-		url("https://cdn.jsdelivr.net/npm/line-seed-jp@0.0.5/woff/LINESeedJP_OTF_Th.woff") format("woff");
+	src: url("../fonts/Geist/Geist-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "LINE Seed JP";
+	font-family: "Geist";
+	font-weight: 100 900;
+	font-style: italic;
+	font-display: swap;
+	src: url("../fonts/Geist/Geist-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "M PLUS Rounded 1c";
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
-	src: local("LINE Seed JP Regular"),
-		url("https://cdn.jsdelivr.net/npm/line-seed-jp@0.0.5/woff2/LINESeedJP_OTF_Rg.woff2") format("woff2"),
-		url("https://cdn.jsdelivr.net/npm/line-seed-jp@0.0.5/woff/LINESeedJP_OTF_Rg.woff") format("woff");
+	src: url("../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Regular.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "LINE Seed JP";
+	font-family: "M PLUS Rounded 1c";
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+	src: url("../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "M PLUS Rounded 1c";
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
-	src: local("LINE Seed JP Bold"),
-		url("https://cdn.jsdelivr.net/npm/line-seed-jp@0.0.5/woff2/LINESeedJP_OTF_Bd.woff2") format("woff2"),
-		url("https://cdn.jsdelivr.net/npm/line-seed-jp@0.0.5/woff/LINESeedJP_OTF_Bd.woff") format("woff");
+	src: url("../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Bold.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "LINE Seed JP";
-	font-weight: 800;
+	font-family: "Great Vibes";
+	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
-	src: local("LINE Seed JP ExtraBold"),
-		url("https://cdn.jsdelivr.net/npm/line-seed-jp@0.0.5/woff2/LINESeedJP_OTF_Eb.woff2") format("woff2"),
-		url("https://cdn.jsdelivr.net/npm/line-seed-jp@0.0.5/woff/LINESeedJP_OTF_Eb.woff") format("woff");
+	src: url("../fonts/Great_Vibes/GreatVibes-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Hachi Maru Pop";
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	src: url("../fonts/Hachi_Maru_Pop/HachiMaruPop-Regular.ttf") format("truetype");
 }
 
 :root {
@@ -72,7 +88,7 @@ html {
 body {
 	min-height: 100%;
 	margin: 0;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	background: var(--bg);
 	color: var(--text);
 }
@@ -160,7 +176,7 @@ main {
 .language-menu button,
 .mobile-language-actions button,
 .menu-toggle {
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	letter-spacing: 0.08em;
 }
 
@@ -352,7 +368,7 @@ html[lang] .mobile-language-actions button {
 
 .eyebrow {
 	margin: 0;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(2.4rem, 7vw, 6rem);
 	font-weight: 400;
 	line-height: 1.2;
@@ -368,7 +384,7 @@ html[lang] .mobile-language-actions button {
 
 .mobile-language-block p {
 	margin: 0;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: 0.9rem;
 	letter-spacing: 0.24em;
 }
@@ -376,7 +392,7 @@ html[lang] .mobile-language-actions button {
 .hero h1 {
 	margin: 0;
 	max-width: 10ch;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(4rem, 12vw, 8.5rem);
 	line-height: 0.88;
 	letter-spacing: 0.02em;
@@ -495,7 +511,7 @@ html[lang] .mobile-language-actions button {
 	border-radius: 8px;
 	background: #000000;
 	color: var(--text-inverse);
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
 	transform: translateY(18px);
 	transition: transform var(--transition);
@@ -908,7 +924,7 @@ body.page-gallery {
 	border-radius: 999px;
 	background: transparent;
 	color: rgba(255, 255, 255, 0.78);
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: 0.9rem;
 	font-weight: 600;
 	letter-spacing: 0.08em;
@@ -1086,7 +1102,7 @@ body.page-about {
 .page-about .about-story,
 .page-about .about-cta,
 .page-about .about-main {
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 }
 
 .about-main {
@@ -1145,7 +1161,7 @@ body.page-about {
 }
 
 .about-hero .eyebrow {
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(0.95rem, 2vw, 1.15rem);
 	color: var(--anime-accent);
 	letter-spacing: 0.3em;
@@ -1231,7 +1247,7 @@ body.page-about {
 
 .photo-frame figcaption {
 	margin-top: 14px;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: 0.92rem;
 	letter-spacing: 0.04em;
 	line-height: 1.4;
@@ -1363,7 +1379,7 @@ body.page-about {
 
 .about-cta h2 {
 	margin: 0;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(1.8rem, 4vw, 2.6rem);
 }
 
@@ -1387,7 +1403,7 @@ body.page-friends {
 
 .page-games .games-main,
 .page-friends .friends-main {
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 }
 
 .games-main,
@@ -1418,7 +1434,7 @@ body.page-friends {
 
 .games-hero .eyebrow,
 .friends-hero .eyebrow {
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(0.95rem, 2vw, 1.15rem);
 	color: var(--anime-accent);
 	letter-spacing: 0.3em;
@@ -1428,7 +1444,7 @@ body.page-friends {
 .games-hero h1,
 .friends-hero h1 {
 	margin: 0;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(2.6rem, 7vw, 5rem);
 	line-height: 1.05;
 	letter-spacing: 0.02em;
@@ -1560,7 +1576,7 @@ body.page-friends {
 
 .friend-card h2 {
 	margin: 0;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(1.5rem, 2.4vw, 2.2rem);
 	line-height: 1.05;
 }
@@ -1654,7 +1670,7 @@ body.page-friends {
 
 .event-month-title {
 	margin: 0;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(1.5rem, 3vw, 2.5rem);
 	font-weight: 500;
 	line-height: 1;
@@ -1734,7 +1750,7 @@ body.page-friends {
 
 .event-card-heading h3 {
 	margin: 0 0 5px;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(1.2rem, 3vw, 2rem);
 	font-weight: 500;
 	line-height: 1.15;
@@ -1913,7 +1929,7 @@ body.page-friends {
 	overflow: hidden;
 	border: 0;
 	background: transparent;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: 0.76rem;
 	font-weight: 700;
 	line-height: 1;
@@ -1932,7 +1948,7 @@ body.page-friends {
 
 .game-card h2 {
 	margin: 0;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(1.2rem, 2.5vw, 2rem);
 	font-weight: 600;
 	line-height: 1.08;
@@ -2049,7 +2065,7 @@ body.page-game-detail {
 
 .page-game-detail .game-detail-main {
 	height: auto;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	background: #000000;
 }
 
@@ -2079,7 +2095,7 @@ body.page-game-detail {
 
 .game-subtitle {
 	margin: 0;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(1.1rem, 2vw, 1.4rem);
 	font-weight: 500;
 	letter-spacing: 0.04em;
@@ -2104,7 +2120,7 @@ body.page-game-detail {
 	position: relative;
 	margin: 0 0 22px;
 	padding-left: 20px;
-	font-family: "LINE Seed JP", sans-serif;
+	font-family: "Geist", sans-serif;
 	font-size: clamp(1.6rem, 3vw, 2.2rem);
 	letter-spacing: 0.04em;
 }

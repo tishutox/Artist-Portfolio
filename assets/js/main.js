@@ -771,7 +771,3 @@ if (imageModal) {
 
 setMenuState(false);
 applyTranslations(activeLanguage);
-
-if (window.lucide) {
-	window.lucide.createIcons();
-}
