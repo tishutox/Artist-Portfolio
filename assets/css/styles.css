@@ -646,6 +646,26 @@ html[lang] .mobile-language-actions button {
 	line-height: 1.6;
 }
 
+.cookie-modal-section p:has(+ p .modal-link) {
+	margin-bottom: 8px;
+}
+
+.cookie-modal-section .modal-lines {
+	margin-bottom: 20px;
+}
+
+.cookie-modal-section .modal-lines p.modal-line {
+	margin: 0 0 4px;
+}
+
+.cookie-modal-section .modal-lines p.modal-line-intro {
+	margin-bottom: 12px;
+}
+
+.cookie-modal-section .modal-lines p.modal-line:last-child {
+	margin-bottom: 0;
+}
+
 .modal-link {
 	color: var(--anime-accent);
 	font-size: 0.95rem;
@@ -982,7 +1002,8 @@ body.page-gallery {
 	background: #0a0a0a;
 }
 
-.gallery-card-media img {
+.gallery-card-media img,
+.gallery-card-media video {
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -991,7 +1012,9 @@ body.page-gallery {
 }
 
 .gallery-card:hover .gallery-card-media img,
-.gallery-card:focus-visible .gallery-card-media img {
+.gallery-card:hover .gallery-card-media video,
+.gallery-card:focus-visible .gallery-card-media img,
+.gallery-card:focus-visible .gallery-card-media video {
 	transform: scale(1.04);
 }
 
@@ -1288,6 +1311,10 @@ body.page-about {
 
 .image-modal.is-open .image-modal-content {
 	transform: translateY(0);
+}
+
+.image-modal-preview[hidden] {
+	display: none;
 }
 
 .image-modal-preview {

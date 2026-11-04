@@ -4,7 +4,7 @@ const translations = {
 			home: "START",
 			about: "ÜBER",
 			events: "EVENTS",
-			gallery: "GALERIE",
+			gallery: "PORTFOLIO",
 			friends: "FREUND*INNEN"
 		},
 		labels: {
@@ -42,38 +42,52 @@ const translations = {
 		},
 		legalModal: {
 			title: "RECHTLICHES",
-			intro: "Ein kurzer Überblick zu rechtlichen Hinweisen dieser Seite.",
-			responsibleTitle: "VERANTWORTLICH FÜR DEN INHALT",
-			responsibleText: "Diese Website ist ein privates, nicht-kommerzielles Projekt von Tishu. Bei Fragen oder rechtlichen Anliegen erreichst du mich per E-Mail:",
-			copyrightTitle: "URHEBERRECHTE",
-			copyrightText: "Genannte Spiele-, Marken- und Firmennamen gehören ihren jeweiligen Rechteinhabern. Ich beanspruche keine Rechte an fremden Inhalten und verwende sie ausschließlich zu Informations- und Fanzwecken."
+			intro: "Ein Überblick über Impressum, Datenschutz, Haftung, Streitschlichtung und Urheberrecht dieser Website.",
+			imprintTitle: "IMPRESSUM",
+			imprintText: "Angaben gemäß den gesetzlichen Informationspflichten. Diese Website wird privat betrieben und zeigt Kunst, Streams und kreative Projekte. Verantwortlich für die Inhalte ist:",
+			imprintName: "[Name der verantwortlichen Person]",
+			imprintStreet: "[Straße und Hausnummer]",
+			imprintCity: "[PLZ und Ort]",
+			imprintEmail: "E-Mail:",
+			privacyTitle: "DATENSCHUTZ",
+			privacyText: "Der Schutz deiner persönlichen Daten ist mir wichtig. Diese Website erhebt keine personenbezogenen Daten über Formulare, Konten oder Tracking-Dienste und setzt keine Werbe- oder Analyse-Cookies ein. Lediglich deine gewählte Spracheinstellung wird lokal in deinem Browser gespeichert, damit sie beim nächsten Besuch erhalten bleibt. Diese Information verlässt dein Gerät nicht. Wenn du mir per E-Mail schreibst, verwende ich deine Angaben ausschließlich zur Bearbeitung deines Anliegens und gebe sie nicht an Dritte weiter. Beim Aufruf externer Links, etwa zu Instagram, Twitch, Discord, X oder VGen, gelten die Datenschutzbestimmungen der jeweiligen Anbieter. Du hast jederzeit das Recht auf Auskunft, Berichtigung und Löschung deiner Daten sowie auf Beschwerde bei einer Datenschutzaufsichtsbehörde.",
+			liabilityTitle: "HAFTUNGSAUSSCHLÜSSE",
+			liabilityText: "Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität kann ich dennoch keine Gewähr übernehmen. Diese Website enthält Links zu externen Plattformen und Profilen Dritter, auf deren Inhalte ich keinen Einfluss habe; dafür ist stets der jeweilige Anbieter verantwortlich. Zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar. Sobald mir Rechtsverletzungen bekannt werden, entferne ich die betreffenden Inhalte oder Links umgehend. Angaben zu Auftragsarbeiten, Preisen oder Verfügbarkeiten sind unverbindlich, soweit sie nicht ausdrücklich schriftlich vereinbart wurden.",
+			disputeTitle: "STREITSCHLICHTUNG",
+			disputeText: "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung bereit. Ich bin weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. Wenn es bei einer Zusammenarbeit, einer Auftragsarbeit oder einem Kauf Unstimmigkeiten gibt, melde dich bitte zuerst direkt bei mir. In den meisten Fällen lässt sich gemeinsam eine faire Lösung finden.",
+			copyrightTitle: "URHEBERRECHT",
+			copyrightText: "Alle auf dieser Website veröffentlichten Inhalte, darunter Texte, Grafiken, Artworks, Animationen, Streams und Videos, unterliegen dem Urheberrecht. Soweit nicht anders gekennzeichnet, liegen die Rechte bei mir als Betreiber*in. Werke Dritter, etwa Auftragsarbeiten anderer Künstler*innen, sind mit Credits versehen und bleiben Eigentum der jeweiligen Urheber*innen. Eine Vervielfältigung, Bearbeitung, Verbreitung oder Verwendung, auch auszugsweise und insbesondere für das Training von KI-Systemen, ist ohne vorherige schriftliche Zustimmung nicht gestattet. Genannte Marken-, Spiele- und Firmennamen gehören ihren jeweiligen Rechteinhaber*innen."
 		},
 		socialsModal: {
 			title: "SOZIALES",
-			intro: "Hier findest du mich auf anderen Plattformen – schau gerne vorbei, folge mir oder sag Hallo im Chat.",
+			intro: "Hier findest du passende Plattformen für Kunst, Streams und den Austausch mit deiner Community.",
 			instagramLabel: "INSTAGRAM",
-			instagramText: "Einblicke hinter die Kulissen, Ankündigungen und ab und zu ein bisschen Alltag.",
+			instagramText: "Teile Skizzen, Einblicke hinter die Kulissen und Neuigkeiten zu Kunst und Streams.",
 			twitchLabel: "TWITCH",
-			twitchText: "Hier streame ich Games, Events und alles, was gerade ansteht – schau vorbei und sag Hi im Chat.",
-			instagramSecondaryLabel: "INSTAGRAM (TTV)",
-			instagramSecondaryText: "Mein zweiter Account rund ums Streaming und Behind-the-Scenes.",
+			twitchText: "Präsentiere Live-Streams, Spiele, kreative Projekte und den Austausch mit deiner Community.",
+			discordLabel: "DISCORD",
+			discordText: "Tausche dich mit deiner Community aus und teile Neuigkeiten zu Kunst und Streams.",
 			xLabel: "X",
-			xText: "Kurze Updates, Gedanken und alles, was gerade passiert."
+			xText: "Veröffentliche kurze Updates zu Kunst, Streams und aktuellen Projekten.",
+			vgenLabel: "VGEN",
+			vgenText: "Präsentiere Auftragsarbeiten, kreative Services und Beispielprojekte."
 		},
 		friendsModal: {
 			title: "FREUND*INNEN",
 			introTitle: "MEINE FREUND*INNEN",
-			introText: "Vier Menschen, deren Profile ich gerne mit euch teile.",
-			starText: "Star ist eine nette Person, mit der ich schon öfter zusammengearbeitet habe. Gemeinsam habe ich Eventposts, Chats und weitere Inhalte übersetzt – zuerst auf Amino, heute auf Kyodo.",
-			graveText: "Mit Grave verbindet mich eine langjährige Freundschaft aus der Leader-Amino-Zeit. Durch Grave wurde ich auf Project Z aufmerksam, wo ich kurze Zeit als Volunteer tätig war.",
-			moppieText: "Moppie ist eine gute Freundin, die ihr allererstes Event unter meiner Führung hatte und anschließend als Leaderin in meiner Community geblieben ist.",
-			swissText: "Swiss ist ebenfalls eine gute Freundin und hat unter meiner Leitung beim selben Event wie Moppie mitgeholfen."
+			introText: "Drei Menschen, deren Profile ich gerne mit euch teile.",
+			friend1Title: "FREUND*IN 1",
+			friend1Text: "Streamt regelmäßig und teilt Kunst und Einblicke in den kreativen Alltag.",
+			friend2Title: "FREUND*IN 2",
+			friend2Text: "Postet Updates, Videos und Auftragsarbeiten rund um Kunst und Content.",
+			friend3Title: "FREUND*IN 3",
+			friend3Text: "Zeigt Illustrationen und Portfolio-Projekte und teilt kreative Gedanken."
 		},
 		gallery: {
-			breadcrumb: "GALERIE",
-			eyebrow: "MEINE GALERIE",
-			title: "Tishus Artworks",
-			intro: "Ein kleines Archiv aus Illustrationen, Animationen und Momenten rund um Tishu. Hier sammle ich Artworks und visuelle Ideen zu meinem OC – von ruhigen Porträts bis zu lebendigen kleinen Szenen.",
+			breadcrumb: "PORTFOLIO",
+			eyebrow: "MEIN PORTFOLIO",
+			title: "Nutzer*ins Portfolio",
+			intro: "Ein kleines Archiv aus Illustrationen, Animationen und Momenten rund um mich. Hier sammle ich Artworks und visuelle Ideen zu meinem OC – von ruhigen Porträts bis zu lebendigen kleinen Szenen.",
 			filterAll: "ALLE",
 			filterArtwork: "ARTWORKS",
 			filterAnimation: "ANIMATIONEN",
@@ -83,19 +97,19 @@ const translations = {
 			newest: "NEU",
 			artworkType: "ARTWORK",
 			animationType: "ANIMATION",
-			artworkCaption: "Porträt von Tishus OC",
-			artworkPortraitCaption: "Porträt von Tishus OC",
-			artworkBannerCaption: "Banner-Artwork von Tishus OC",
-			animationCaption: "Animierte Szene von Tishus OC",
+			artworkCaption: "Porträt meines OCs",
+			artworkPortraitCaption: "Porträt meines OCs",
+			artworkBannerCaption: "Banner-Artwork meines OCs",
+			animationCaption: "Animierte Szene meines OCs",
 			creditPending: "Credit noch nicht hinterlegt",
-			noVideos: "Videos zu Tishus OC erscheinen hier, sobald es welche gibt."
+			noVideos: "Videos zu meinem OC erscheinen hier, sobald es welche gibt."
 		},
 		about: {
 			breadcrumbHome: "START",
 			breadcrumbCurrent: "ÜBER",
 			eyebrow: "WER ICH BIN",
-			title: "Über Tishu",
-			lead: "Ich bin Tishu und helfe bei verschiedenen Events auf Kyodo. Ich übersetze Texte und unterstütze, wo ich kann. Schreibt mich gerne an, ich beiße auch nicht!",
+			title: "Über Nutzer*in",
+			lead: "Ich bin Nutzer*in, ein*e anstrebende*r, professionelle*r Künstler*in. Ich zeichne sehr gerne und nehme auch Anfragen an. Schreibt mich gerne an, ich beiße auch nicht!",
 			storyTitle: "Was ich so mache",
 			storyText: "Ich helfe bei verschiedenen Aktivitäten soweit ich kann, übersetze meistens Aktivitäten, Chatbeschreibungen und Weiteres aus dem Englischen ins Deutsche und bei Bedarf auch gerne in die verkehrte Richtung.",
 			storyText2: "Ich freue mich über kreative Aufgaben, unkomplizierte Zusammenarbeit und die kleine Herausforderung, Texte so zu verändern, dass sie wirklich verständlich und angenehm wirken.",
@@ -204,7 +218,7 @@ const translations = {
 			home: "HOME",
 			about: "ABOUT",
 			events: "EVENTS",
-			gallery: "GALLERY",
+			gallery: "PORTFOLIO",
 			friends: "FRIENDS"
 		},
 		labels: {
@@ -242,61 +256,75 @@ const translations = {
 		},
 		legalModal: {
 			title: "LEGAL",
-			intro: "A short overview of the legal notices for this site.",
-			responsibleTitle: "RESPONSIBLE FOR THE CONTENT",
-			responsibleText: "This website is a private, non-commercial project by Tishu. For any questions or legal concerns, you can reach me by email:",
+			intro: "An overview of the imprint, privacy, disclaimers, dispute resolution, and copyright of this website.",
+			imprintTitle: "IMPRINT",
+			imprintText: "Information in accordance with legal disclosure requirements. This website is run privately and showcases art, streams, and creative projects. The person responsible for the content is:",
+			imprintName: "[Name of responsible person]",
+			imprintStreet: "[Street and number]",
+			imprintCity: "[Postal code and city]",
+			imprintEmail: "Email:",
+			privacyTitle: "PRIVACY",
+			privacyText: "Protecting your personal data matters to me. This website does not collect personal data through forms, accounts, or tracking services, and it does not use advertising or analytics cookies. Only your selected language preference is stored locally in your browser so it is remembered on your next visit. This information never leaves your device. If you email me, I use your details solely to handle your request and do not share them with third parties. When you follow external links, for example to Instagram, Twitch, Discord, X, or VGen, the privacy policies of the respective providers apply. You have the right to access, correct, and delete your data at any time, as well as the right to lodge a complaint with a data protection authority.",
+			liabilityTitle: "DISCLAIMERS",
+			liabilityText: "The content of this website is created with the greatest possible care. Nevertheless, I cannot guarantee its accuracy, completeness, or timeliness. This website contains links to external platforms and third-party profiles whose content I have no influence over; the respective provider is always responsible for it. No legal violations were apparent at the time of linking. As soon as I become aware of any violations, I will remove the relevant content or links promptly. Information about commissions, prices, or availability is non-binding unless expressly agreed in writing.",
+			disputeTitle: "DISPUTE RESOLUTION",
+			disputeText: "The European Commission provides a platform for online dispute resolution. I am neither obliged nor willing to participate in dispute resolution proceedings before a consumer arbitration board. If there are any disagreements regarding a collaboration, commission, or purchase, please contact me directly first. In most cases, a fair solution can be found together.",
 			copyrightTitle: "COPYRIGHT",
-			copyrightText: "All mentioned game, brand, and company names belong to their respective rights holders. I do not claim any rights over third-party content and use it strictly for informational and fan purposes."
+			copyrightText: "All content published on this website, including texts, graphics, artworks, animations, streams, and videos, is protected by copyright. Unless stated otherwise, the rights belong to me as the site owner. Third-party works, such as commissions by other artists, are credited and remain the property of their respective creators. Reproduction, editing, distribution, or use, including in part and especially for training AI systems, is not permitted without prior written permission. Mentioned brand, game, and company names belong to their respective rights holders."
 		},
 		socialsModal: {
 			title: "SOCIALS",
-			intro: "Here's where you can find me on other platforms, feel free to stop by, follow along, or say hi in chat.",
+			intro: "Explore platforms for sharing art, streaming, and connecting with your community.",
 			instagramLabel: "INSTAGRAM",
-			instagramText: "Behind-the-scenes glimpses, announcements, and a bit of everyday life.",
+			instagramText: "Share sketches, behind-the-scenes glimpses, and updates about your art and streams.",
 			twitchLabel: "TWITCH",
-			twitchText: "This is where I stream games, events, and whatever's going on, drop by and say hi in chat.",
-			instagramSecondaryLabel: "INSTAGRAM (TTV)",
-			instagramSecondaryText: "My second account, all about streaming and behind-the-scenes.",
+			twitchText: "Showcase live streams, games, creative projects, and connect with your community.",
+			discordLabel: "DISCORD",
+			discordText: "Connect with your community and share news about your art and streams.",
 			xLabel: "X",
-			xText: "Short updates, thoughts, and whatever's happening right now."
+			xText: "Post short updates about your art, streams, and current projects.",
+			vgenLabel: "VGEN",
+			vgenText: "Showcase commissions, creative services, and sample projects."
 		},
 		friendsModal: {
 			title: "FRIENDS",
 			introTitle: "MY FRIENDS",
-			introText: "Four people whose profiles I like to share with you.",
-			starText: "Star is a lovely person I've worked with several times. Together we've translated event posts, chats, and other content — first on Amino, now on Kyodo.",
-			graveText: "Grave and I share a long friendship from the Leader Amino era. Through Grave, I got involved with Project Z, where I briefly worked as a volunteer.",
-			moppieText: "Moppie is a close friend who held her very first event under my guidance and later stayed in my community as a leader.",
-			swissText: "Swiss is also a close friend and helped me during the same event as Moppie."
+			introText: "Three people whose profiles I like to share with you.",
+			friend1Title: "FRIEND 1",
+			friend1Text: "Streams regularly and shares art and glimpses into everyday creative life.",
+			friend2Title: "FRIEND 2",
+			friend2Text: "Posts updates, videos, and commissions about art and content.",
+			friend3Title: "FRIEND 3",
+			friend3Text: "Shows illustrations and portfolio projects and shares creative thoughts."
 		},
 		gallery: {
-			breadcrumb: "GALLERY",
-			eyebrow: "MY GALLERY",
-			title: "Tishu's Artworks",
-			intro: "A small archive of illustrations, animations, and moments from Tishu's world. Here I collect artwork and visual ideas for my OC, from quiet portraits to lively little scenes.",
+			breadcrumb: "PORTFOLIO",
+			eyebrow: "MY PORTFOLIO",
+			title: "Users Artworks",
+			intro: "A small archive of illustrations, animations, and moments from my world. Here I collect artwork and visual ideas for my OC, from quiet portraits to lively little scenes.",
 			filterAll: "ALL",
-			filterArtwork: "ARTWORK",
-			filterAnimation: "ANIMATION",
+			filterArtwork: "ARTWORKS",
+			filterAnimation: "ANIMATIONS",
 			filterSheets: "SHEETS",
 			filterVideo: "VIDEOS",
-			sectionTitle: "OC · ARTWORK & ANIMATION",
+			sectionTitle: "OC · ARTWORKS & ANIMATIONS",
 			newest: "NEW",
-			artworkType: "ARTWORK",
-			animationType: "ANIMATION",
-			artworkCaption: "Portrait of Tishu's OC",
-			artworkPortraitCaption: "Portrait of Tishu's OC",
-			artworkBannerCaption: "Banner artwork of Tishu's OC",
-			animationCaption: "Animated scene of Tishu's OC",
+			artworkType: "ARTWORKS",
+			animationType: "ANIMATIONS",
+			artworkCaption: "Portrait of my OC",
+			artworkPortraitCaption: "Portrait of my OC",
+			artworkBannerCaption: "Banner artwork of my OC",
+			animationCaption: "Animated scene of my OC",
 			creditPending: "Credit not provided",
-			noVideos: "Videos featuring Tishu's OC will appear here when available."
+			noVideos: "Videos featuring my OC will appear here when available."
 		},
 		about: {
 			breadcrumbHome: "HOME",
 			breadcrumbCurrent: "ABOUT",
 			eyebrow: "WHO I AM",
-			title: "About Tishu",
-			lead: "I am Tishu, a helper and translator for various events on Kyodo. Feel free to message me — I do bite, but only metaphorically.",
-			storyTitle: "What I Do",
+			title: "About User",
+			lead: "I am a budding professional artist. I love drawing and am open to requests. Feel free to message me — I don't bite!",
+			storyTitle: "What I do",
 			storyText: "I help with various activities wherever I can, mostly translating events, chat descriptions, and other text from English into German, and sometimes gladly the other way around when needed.",
 			storyText2: "I enjoy creative tasks, straightforward collaboration, and the little challenge of reshaping text so it feels natural, clear, and pleasant to read.",
 			photoCaption1: "Kimono",
@@ -430,6 +458,7 @@ const imageTriggers = document.querySelectorAll("[data-image-trigger]");
 const imageModal = document.querySelector("[data-image-modal]");
 const imagePreview = document.querySelector("[data-image-preview]");
 const imageCaption = document.querySelector("[data-image-caption]");
+const imageVideoPreview = document.querySelector("[data-image-video-preview]");
 const imageClose = document.querySelector("[data-image-close]");
 const tagToggleButtons = document.querySelectorAll("[data-tag-toggle]");
 const galleryFilterButtons = document.querySelectorAll("[data-gallery-filter]");
@@ -437,7 +466,7 @@ const galleryItems = document.querySelectorAll("[data-gallery-item]");
 const galleryEmptyState = document.querySelector("[data-gallery-empty]");
 const galleryGrid = document.querySelector(".gallery-grid");
 
-const languageStorageKey = "tishu-language";
+const languageStorageKey = "site-language";
 const storedLanguage = window.localStorage.getItem(languageStorageKey);
 let activeLanguage = translations[storedLanguage] ? storedLanguage : "en";
 
@@ -551,9 +580,21 @@ const setImageModalState = (isOpen, trigger = null) => {
 
 	if (isOpen && trigger) {
 		const image = trigger.querySelector("img");
+		const video = trigger.querySelector("video");
 		const caption = trigger.querySelector("figcaption");
-		imagePreview.src = image.src;
-		imagePreview.alt = image.alt;
+		if (video && imageVideoPreview) {
+			imageVideoPreview.src = video.currentSrc || video.src;
+			imageVideoPreview.hidden = false;
+			imagePreview.hidden = true;
+			imageVideoPreview.play().catch(() => {});
+		} else {
+			if (imageVideoPreview) {
+				imageVideoPreview.hidden = true;
+			}
+			imagePreview.hidden = false;
+			imagePreview.src = image.src;
+			imagePreview.alt = image.alt;
+		}
 		imageCaption.textContent = "";
 		imageCaption.append(document.createTextNode(caption.textContent));
 		if (trigger.dataset.imageCredit) {
@@ -576,6 +617,9 @@ const setImageModalState = (isOpen, trigger = null) => {
 		return;
 	}
 
+	if (imageVideoPreview) {
+		imageVideoPreview.pause();
+	}
 	imageModal.classList.remove("is-open");
 	imageModal.setAttribute("aria-hidden", "true");
 };
@@ -663,7 +707,13 @@ const layoutGalleryRows = () => {
 		.filter((item) => !item.hidden)
 		.map((item) => {
 			const image = item.querySelector("img");
-			const ratio = image && image.naturalWidth ? image.naturalWidth / image.naturalHeight : 1;
+			const video = item.querySelector("video");
+			let ratio = 1;
+			if (image && image.naturalWidth) {
+				ratio = image.naturalWidth / image.naturalHeight;
+			} else if (video && video.videoWidth) {
+				ratio = video.videoWidth / video.videoHeight;
+			}
 			return { item, ratio };
 		});
 
@@ -714,6 +764,10 @@ if (galleryGrid) {
 			image.addEventListener("load", layoutGalleryRows);
 			image.addEventListener("error", layoutGalleryRows);
 		}
+	});
+
+	galleryGrid.querySelectorAll("video").forEach((video) => {
+		video.addEventListener("loadedmetadata", layoutGalleryRows);
 	});
 
 	let galleryLayoutFrame = null;
